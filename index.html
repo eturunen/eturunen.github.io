@@ -23,12 +23,13 @@
         }
 
         .topnav a {
+            margin-left: 10%;
             float:left;
             color: #f2f2f2;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
-            font-size: 25px;
+            font-size: 20px;
         }
 
         .topnav:hover{
@@ -38,7 +39,7 @@
 
         .topnav a.navtext{
             background-color: rgb(184, 113, 184);
-            font-size: 30px;
+            font-size: 25px;
         }
 
         /*rakenteen määrittely*/
@@ -300,7 +301,13 @@
             height: 100px;
         }
 
-        /*kokeilua*/
+        @media only screen and (max-width:600px){
+
+        .container-3{
+            width: 100%;
+
+        }
+    }
 
     </style>
 </head>
@@ -578,31 +585,6 @@
 
 
     <script>
-
-        /*navigointipalkki mobiilinäkymään*/
-
-        function myFunction() {
-            var x = document.getElementById("links");
-            if (x.style.display === "block") {
-                x.style.display = "none";
-            } else {
-                x.style.display = "block";
-            }
-        }
-
-        /*toiminnallisuus navigoinnille*/
-
-        var prevScrollpos = window.pageYOffset;
-        window.onscroll = function () {
-            var currentScrollPos = window.pageYOffset;
-            if (prevScrollpos > currentScrollPos) {
-                document.getElementById("navigointi").style.top = "0";
-            } else {
-                document.getElementById("navigointi").style.top = "-200px";
-            }
-            prevScrollpos = currentScrollPos;
-        }
-
         /*toiminnallisuus lomakkeen tarkistukseen*/
 
         function tarkista() {

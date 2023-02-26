@@ -3,6 +3,7 @@
 <html>
 
 <head>
+    <title>CV</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -65,23 +66,19 @@
 
         .image {
             position: static;
-            width: auto;
-            height: auto;
-            max-height: 1800px;
+            width: 100%;
+            height: 100%;
             max-width: 100%;
-            margin-right: 100px;
-            margin-left: 100px;
-            padding-top: 100px;
+            margin-right: 0px;
+            margin-left: 0px;
+            padding-top: 0px;
             padding-right: 0px;
-            padding-bottom: 100px;
-            border: 1px solid #000;
-            background-color: transparent;
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
+            padding-bottom: 0px;
         }
 
-        .body {
+        .html,
+        body {
+            overflow-x: hidden;
             width: 100%;
             display: block;
             background-image: url("taustakuva.jpg");
@@ -385,7 +382,17 @@
 
         /*kokeilua*/
 
-        @media only screen and (max-width: 1000px) {
+        @media only screen and (max-width: 600px) {
+
+            .html,
+            body {
+                overflow-x: hidden;
+                width: 100%;
+                display: block;
+                background-image: url("taustakuva.jpg");
+                background-position: 0px 0px;
+                background-size: auto;
+            }
 
             /*navigointipalkki*/
 
@@ -446,6 +453,7 @@
             }
 
             .navtext2 {
+                float: left;
                 padding-top: 10px;
                 margin-left: 50%;
                 margin-right: 150px;
@@ -460,12 +468,12 @@
             .container-3 {
                 margin-top: 120px;
                 margin-bottom: 140px;
-                margin-left: 5%;
-                padding-left: 8%;
-                padding-right: 10%;
+                margin-left: 0px;
+                padding-left: 0px;
+                padding-right: 0px;
+                padding-left: 0px;
                 width: 100%;
                 height: auto;
-                width: 90%;
                 background-image: url(taustakuvapieni.jpg);
                 background-size: auto;
             }
@@ -1001,6 +1009,7 @@
                 width: auto;
             }
         }
+
     </style>
 </head>
 
@@ -1295,7 +1304,6 @@
     </div>
 
 
-
     <script>
 
         /*navigointipalkki mobiilinäkymään*/
@@ -1381,6 +1389,3 @@
 </body>
 
 </html>
-=======
-
->>>>>>> af55f38e1f43bd48701729861dee7798bce81b3c

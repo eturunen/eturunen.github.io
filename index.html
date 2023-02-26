@@ -9,6 +9,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <style>
+
         /*Navigointipalkille tyyli*/
 
         .navbar {
@@ -37,7 +38,6 @@
         .navbar a.icon {
             overflow: hidden;
             color: #fff;
-            display: block;
             position: absolute;
             right: 0;
             top: 0;
@@ -60,6 +60,7 @@
 
         .html,
         body {
+            width: 100%;
             overflow-x: hidden;
             background-image: url("taustakuva.jpg");
         }
@@ -67,7 +68,10 @@
         /* Profiiliosion tyylin määrittely */
 
         .container-3 {
-            width: 100%;
+            height: auto;
+            width: auto;
+            margin-left: 10%;
+            margin-right: 10%;
             margin-top: 10%;
             margin-bottom: 10%;
             padding: 2% 5% 5%;
@@ -319,6 +323,18 @@
                 width: 100%;
             }
 
+            [class*="heading-"] {
+                width: 100%;
+            }
+
+            [class*="former"] {
+                width: 100%;
+            }
+
+            [class*="text-"] {
+                width: 100%;
+            }
+
             .html,
             body {
                 width: 100%;
@@ -361,7 +377,6 @@
             }
 
             .navbar a.icon {
-                overflow: hidden;
                 color: #fff;
                 display: block;
                 position: absolute;
@@ -948,9 +963,9 @@
                         <a id="koulutus" href="#yksi">
                             <h4 onclick="myFunction()" class="navtext2">Koulutus</h4>
                         </a>
-                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                            <i class="fa fa-bars"></i>
                 </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
         </div>
     </div>
 

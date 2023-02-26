@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <style>
@@ -45,7 +44,6 @@
         }
 
         .navtext {
-            position: relative;
             padding-bottom: 10%;
             color: #fff;
             font-size: 30px;
@@ -69,10 +67,7 @@
         /* Profiiliosion tyylin määrittely */
 
         .container-3 {
-            height: auto;
-            width: auto;
-            margin-left: 10%;
-            margin-right: 10%;
+            width: 100%;
             margin-top: 10%;
             margin-bottom: 10%;
             padding: 2% 5% 5%;
@@ -318,7 +313,11 @@
 
         /*kokeilua*/
 
-        @media only screen and (max-width: 600px) {
+        @media only screen and (max-width: 768px) {
+
+            [class*="col-"] {
+                width: 100%;
+            }
 
             .html,
             body {
@@ -387,10 +386,7 @@
             /*Profiili*/
 
             .container-3 {
-                height: auto;
-                width: auto;
-                margin-left: 10%;
-                margin-right: 10%;
+                width: 100%;
                 margin-top: 10%;
                 margin-bottom: 10%;
                 padding: 2% 5% 5%;
@@ -688,14 +684,12 @@
             /*Profiili*/
 
             .container-3 {
-                margin-left: 5%;
-                padding-left: 8%;
-                padding-right: 10%;
-                height: auto;
-                width: auto;
-                margin-bottom: 140px;
+                width: 100%;
+                margin-top: 10%;
+                margin-bottom: 10%;
+                padding: 2% 5% 5%;
                 background-image: url(taustakuvapieni.jpg);
-                background-size: auto;
+                text-align: left;
             }
 
             .kuvaa {
@@ -942,24 +936,21 @@
                 </li>
 
                 <div class="dropdown" id="links">
-
-                    <a id="otayhteytta" href="#nelja">
-                        <h4 class="navtext2">Ota yhteyttä</h4>
-                    </a>
-                    <a id="taidot" href="#kolme">
-                        <h4 class="navtext2">Taidot</h4>
-                    </a>
-                    <a id="työkokemus" href="#kaksi">
-                        <h4 class="navtext2">Työkokemus</h4>
-                    </a>
-                    <a id="koulutus" href="#yksi">
-                        <h4 onclick="myFunction()" class="navtext2">Koulutus</h4>
-                    </a>
-
+                        <a id="otayhteytta" href="#nelja">
+                            <h4 class="navtext2">Ota yhteyttä</h4>
+                        </a>
+                        <a id="taidot" href="#kolme">
+                            <h4 class="navtext2">Taidot</h4>
+                        </a>
+                        <a id="työkokemus" href="#kaksi">
+                            <h4 class="navtext2">Työkokemus</h4>
+                        </a>
+                        <a id="koulutus" href="#yksi">
+                            <h4 onclick="myFunction()" class="navtext2">Koulutus</h4>
+                        </a>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
                 </div>
-
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
         </div>
     </div>
 

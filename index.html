@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <style>
-
         /*Navigointipalkille tyyli*/
 
         .navbar {
@@ -33,9 +32,7 @@
         }
 
         .header {
-            padding-top: 10px;
             float: left;
-            padding: 15px 20px;
         }
 
         .navbar a.icon {
@@ -48,64 +45,39 @@
         }
 
         .navtext {
-            padding: top 10px;
-            padding-bottom: 30px;
+            position: relative;
+            padding-bottom: 10%;
             color: #fff;
             font-size: 30px;
         }
 
         .navtext2 {
-            padding-top: 10px;
-            padding-bottom: 30px;
+            padding-top: 10%;
             padding-right: 100px;
             color: #fff;
             font-size: 20px;
         }
 
-        /*taustakuvan tyylin ja rakenteen määrittely*/
+        /*rakenteen määrittely*/
 
-        .image {
-            position: static;
-            width: 100%;
-            height: 100%;
-            max-height: 1800px;
-            max-width: 100%;
-            margin-right: 100px;
-            margin-left: 100px;
-            padding-top: 100px;
-            padding-right: 0px;
-            padding-bottom: 100px;
-            border: 1px solid #000;
-            background-color: transparent;
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .html, body {
+        .html,
+        body {
             overflow-x: hidden;
-            width: 100%;
-            display: block;
             background-image: url("taustakuva.jpg");
-            background-position: 0px 0px;
-            background-size: auto;
         }
 
         /* Profiiliosion tyylin määrittely */
 
         .container-3 {
-            position: static;
             height: auto;
             width: auto;
-            margin-left: 100px;
-            margin-right: 100px;
-            margin-top: 300px;
-            margin-bottom: 140px;
-            padding: 20px 100px 100px;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 10%;
+            margin-bottom: 10%;
+            padding: 2% 5% 5%;
             background-image: url(taustakuvapieni.jpg);
-            background-position: 0px 0px;
-            background-size: auto;
-            text-align: center;
+            text-align: left;
         }
 
         .image-11 {
@@ -125,13 +97,10 @@
 
 
         .heading-11 {
-            position: static;
             margin-left: 57%;
             font-size: 60px;
             font-weight: 700;
             color: #fff;
-            padding-bottom: 10px;
-            padding-left: 100px;
             text-align: left;
 
             padding-top: 30px;
@@ -140,28 +109,12 @@
         }
 
         .navbar-header {
-            float: ri;
+            float: left;
             position: static;
-            padding-top: 100px;
-        }
-
-        .container {
-            height: auto;
-            width: auto;
-            display: grid;
-            grid-template-columns: auto auto auto;
-            padding: 10px;
-            position: static;
-
-            max-width: 100%;
-            margin-right: auto;
-            margin-left: auto;
         }
 
         .text-block-2 {
-            position: static;
-            padding-top: 30px;
-            margin-left: 40%;
+            padding-top: 5%;
             color: #fff;
             font-size: 30px;
             font-weight: 700;
@@ -171,12 +124,9 @@
         .text-block-3 {
             width: auto;
             margin-left: 35%;
-            padding-right: 0px;
-            padding-left: 140px;
+            padding-left: 15%;
             color: #fff;
             font-size: 25px;
-            -o-object-fit: scale-down;
-            object-fit: scale-down;
         }
 
         /*Koulutus osan tyyli*/
@@ -184,15 +134,13 @@
         .container-4 {
             height: auto;
             width: auto;
-            margin-left: 100px;
-            margin-right: 100px;
-            margin-top: 100px;
-            margin-bottom: 140px;
-            padding: 20px 100px 100px;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 10%;
+            margin-bottom: 10%;
+            padding: 2% 5% 5%;
             background-image: url(taustakuvapieni.jpg);
-            background-position: 0px 0px;
-            background-size: auto;
-            text-align: center;
+            text-align: left;
         }
 
         .heading-2 {
@@ -211,8 +159,7 @@
         }
 
         .text-block-4 {
-            width: 1500px;
-            padding-left: 40%;
+            padding-left: 35%;
             color: #fff9f9;
             font-size: 25px;
             text-align: left;
@@ -223,14 +170,13 @@
         .container-5 {
             height: auto;
             width: auto;
-            margin-left: 100px;
-            margin-right: 100px;
-            margin-top: 100px;
-            margin-bottom: 140px;
-            padding: 20px 100px 100px;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 10%;
+            margin-bottom: 10%;
+            padding: 2% 5% 5%;
             background-image: url(taustakuvapieni.jpg);
-            background-position: 0px 0px;
-            background-size: auto;
+            text-align: left;
         }
 
         .heading-15 {
@@ -241,7 +187,6 @@
         }
 
         .heading-16 {
-            margin-bottom: 20px;
             color: #fffdfd;
             font-size: 30px;
             text-align: center;
@@ -260,13 +205,13 @@
         .container-6 {
             height: auto;
             width: auto;
-            margin-left: 100px;
-            margin-right: 100px;
-            margin-top: 100px;
-            margin-bottom: 140px;
-            padding: 20px 100px 100px;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 10%;
+            margin-bottom: 10%;
+            padding: 2% 5% 5%;
             background-image: url(taustakuvapieni.jpg);
-            background-size: auto;
+            text-align: left;
         }
 
         .heading-18 {
@@ -278,7 +223,6 @@
         }
 
         .heading-17 {
-            margin-bottom: 20px;
             color: #fffdfd;
             font-size: 40px;
             text-align: center;
@@ -287,7 +231,7 @@
 
         .text-block-6 {
             margin-left: 5%;
-            width: 1500px;
+            width: 100%;
             padding-left: 40%;
             color: #fff9f9;
             font-size: 25px;
@@ -298,13 +242,13 @@
         .container-7 {
             height: auto;
             width: auto;
-            margin-left: 100px;
-            margin-right: 100px;
-            margin-top: 100px;
-            margin-bottom: 140px;
-            padding: 20px 100px 100px;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 10%;
+            margin-bottom: 10%;
+            padding: 2% 5% 5%;
             background-image: url(taustakuvapieni.jpg);
-            background-size: auto;
+            text-align: left;
         }
 
         .grid-container {
@@ -316,7 +260,6 @@
         }
 
         .grid-item1 {
-            padding: 20px;
             font-size: 30px;
             text-align: center;
         }
@@ -326,7 +269,7 @@
         }
 
         .text-block-7 {
-            padding-top: 120px;
+            padding-top: 30%;
             color: #fff9f9;
             font-size: 40px;
         }
@@ -346,35 +289,23 @@
         .former {
             position: static;
             background-size: auto;
-            padding-top: 40px;
-            height: 700px;
-            width: 600px;
+            padding-top: 5%;
+            padding-bottom: 5%;
+            padding-left: 10%;
+            height: 100%;
+            width: 100%;
             margin-left: 50%;
             background-color: #fff;
-            padding-left: 10%;
             font-size: 25px;
         }
 
         .formheader {
             padding-left: 10%;
-            margin-bottom: 20px;
             color: black;
             font-size: 40px;
             text-align: left;
             font-weight: 700;
 
-        }
-
-        .grid {
-            grid-auto-flow: column;
-            grid-column-gap: 20px;
-            grid-row-gap: 20px;
-            grid-template-areas: "Area ."
-                "Area-2 Area-2";
-            -ms-grid-columns: 4.25fr 20px 1fr;
-            grid-template-columns: 4.25fr 1fr;
-            -ms-grid-rows: auto 20px minmax(358px, 0.25fr);
-            grid-template-rows: auto minmax(358px, 0.25fr);
         }
 
         .div-block-4 {
@@ -387,10 +318,10 @@
 
         /*kokeilua*/
 
-        @media only screen and (max-width: 500px) {
+        @media screen and (max-width: 500px) {
 
-            .html, body {
-                overflow-x: hidden;
+            .html,
+            body {
                 width: 100%;
                 display: block;
                 background-image: url("taustakuva.jpg");
@@ -453,8 +384,250 @@
                 font-size: 15px;
             }
 
+            /*Profiili*/
 
-           
+            .container-3 {
+                height: auto;
+                width: auto;
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-top: 10%;
+                margin-bottom: 10%;
+                padding: 2% 5% 5%;
+                background-image: url(taustakuvapieni.jpg);
+                text-align: left;
+            }
+
+            .image-11 {
+                width: 5%;
+            }
+
+            .linkedinpicture {
+                padding-top: auto;
+
+            }
+
+            .picture {
+                padding-top: 20%;
+                width: 20%;
+                height: 30%;
+            }
+
+            .heading-11 {
+                margin-left: 0%;
+                font-size: 50px;
+                font-weight: 700;
+                color: #fff;
+                text-align: left;
+            }
+
+            .navbar-header {
+                float: left;
+                position: static;
+            }
+
+            .text-block-2 {
+                padding-top: 5%;
+                color: #fff;
+                font-size: 20px;
+                font-weight: 700;
+                text-align: center;
+            }
+
+            .text-block-3 {
+                width: auto;
+                margin-left: 35%;
+                padding-left: 15%;
+                color: #fff;
+                font-size: 25px;
+            }
+
+            /*Koulutus osan tyyli*/
+
+            .container-4 {
+                height: auto;
+                width: auto;
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-top: 10%;
+                margin-bottom: 10%;
+                padding: 2% 5% 5%;
+                background-image: url(taustakuvapieni.jpg);
+                text-align: left;
+            }
+
+            .heading-2 {
+                font-size: 40px;
+                font-weight: 700;
+                color: #fff;
+                text-align: center;
+            }
+
+            .heading-12 {
+
+                color: #fffdfd;
+                font-size: 30px;
+                text-align: center;
+                font-weight: 700;
+            }
+
+            .text-block-4 {
+                padding-left: 35%;
+                color: #fff9f9;
+                font-size: 25px;
+                text-align: left;
+            }
+
+            /*Tyyli työkokemus osiolle*/
+
+            .container-5 {
+                height: auto;
+                width: auto;
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-top: 10%;
+                margin-bottom: 10%;
+                padding: 2% 5% 5%;
+                background-image: url(taustakuvapieni.jpg);
+                text-align: left;
+            }
+
+            .heading-15 {
+                font-size: 60px;
+                font-weight: 700;
+                color: #fff;
+                text-align: center;
+            }
+
+            .heading-16 {
+                color: #fffdfd;
+                font-size: 30px;
+                text-align: center;
+                font-weight: 700;
+            }
+
+            .text-block-5 {
+                width: 75%;
+                padding-left: 35%;
+                color: #fff9f9;
+                font-size: 25px;
+            }
+
+            /* Tyyli Taidot osiolle*/
+
+            .container-6 {
+                height: auto;
+                width: auto;
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-top: 10%;
+                margin-bottom: 10%;
+                padding: 2% 5% 5%;
+                background-image: url(taustakuvapieni.jpg);
+                text-align: left;
+            }
+
+            .heading-18 {
+                float: center;
+                font-size: 60px;
+                font-weight: 700;
+                color: #fff;
+                text-align: center;
+            }
+
+            .heading-17 {
+                color: #fffdfd;
+                font-size: 40px;
+                text-align: center;
+                font-weight: 700;
+            }
+
+            .text-block-6 {
+                margin-left: 5%;
+                width: 100%;
+                padding-left: 40%;
+                color: #fff9f9;
+                font-size: 25px;
+            }
+
+            /*Tyyli Yhteystiedot osiolle*/
+
+            .container-7 {
+                height: auto;
+                width: auto;
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-top: 10%;
+                margin-bottom: 10%;
+                padding: 2% 5% 5%;
+                background-image: url(taustakuvapieni.jpg);
+                text-align: left;
+            }
+
+            .grid-container {
+                display: inline;
+                height: auto;
+                display: grid;
+                grid-template-columns: 50% 50%;
+
+            }
+
+            .grid-item1 {
+                font-size: 30px;
+                text-align: center;
+            }
+
+            .grid-item2 {
+                background-color: #fff;
+            }
+
+            .text-block-7 {
+                padding-top: 30%;
+                color: #fff9f9;
+                font-size: 40px;
+            }
+
+            .phone {
+                list-style-image: url(puhelin.png);
+            }
+
+            .email {
+                list-style-image: url(sähköposti.png);
+            }
+
+            .linkedin {
+                list-style-image: url(linkedinkuva2.png);
+            }
+
+            .former {
+                position: static;
+                background-size: auto;
+                padding-top: 5%;
+                padding-bottom: 5%;
+                padding-left: 10%;
+                height: 100%;
+                width: 100%;
+                margin-left: 50%;
+                background-color: #fff;
+                font-size: 25px;
+            }
+
+            .formheader {
+                padding-left: 10%;
+                color: black;
+                font-size: 40px;
+                text-align: left;
+                font-weight: 700;
+
+            }
+
+            .div-block-4 {
+                height: 50px;
+            }
+
+            .div-block-6 {
+                height: 100px;
+            }
         }
 
         @media only screen and (max-width: 1500px) {
@@ -507,7 +680,7 @@
             }
 
             .navtext2 {
-               
+
                 color: #fff;
                 font-size: 15px;
             }
@@ -751,8 +924,6 @@
                 width: auto;
             }
         }
-
-
     </style>
 </head>
 
@@ -1130,4 +1301,5 @@
 
     </script>
 </body>
+
 </html>

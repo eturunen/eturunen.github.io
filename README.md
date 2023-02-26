@@ -69,15 +69,12 @@
         /* Profiiliosion tyylin määrittely */
 
         .container-3 {
-            height: auto;
-            width: auto;
-            margin-left: 10%;
-            margin-right: 10%;
-            margin-top: 10%;
-            margin-bottom: 10%;
-            padding: 2% 5% 5%;
-            background-image: url(taustakuvapieni.jpg);
-            text-align: left;
+           width: 100%;
+           margin-top: 10%;
+           margin-bottom: 10%;
+           padding: 2% 5% 5%;
+           background-image: url(taustakuvapieni.jpg);
+           text-align: left;
         }
 
         .image-11 {
@@ -448,8 +445,6 @@
             }
         }
 
-
-            }
 
             .linkedinpicture {
                 padding-top: auto;

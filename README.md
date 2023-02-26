@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 
@@ -382,17 +381,7 @@
 
         /*kokeilua*/
 
-        @media only screen and (max-width: 600px) {
-
-            .html,
-            body {
-                overflow-x: hidden;
-                width: 100%;
-                display: block;
-                background-image: url("taustakuva.jpg");
-                background-position: 0px 0px;
-                background-size: auto;
-            }
+        @media only screen and (max-width: 1000px) {
 
             /*navigointipalkki*/
 
@@ -453,7 +442,6 @@
             }
 
             .navtext2 {
-                float: left;
                 padding-top: 10px;
                 margin-left: 50%;
                 margin-right: 150px;
@@ -468,12 +456,12 @@
             .container-3 {
                 margin-top: 120px;
                 margin-bottom: 140px;
-                margin-left: 0px;
-                padding-left: 0px;
-                padding-right: 0px;
-                padding-left: 0px;
+                margin-left: 5%;
+                padding-left: 8%;
+                padding-right: 10%;
                 width: 100%;
                 height: auto;
+                width: 90%;
                 background-image: url(taustakuvapieni.jpg);
                 background-size: auto;
             }
@@ -1009,7 +997,6 @@
                 width: auto;
             }
         }
-
     </style>
 </head>
 

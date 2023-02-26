@@ -387,7 +387,16 @@
 
         /*kokeilua*/
 
-        @media only screen and (max-width: 1000px) {
+        @media only screen and (max-width: 500px) {
+
+            .html, body {
+                overflow-x: hidden;
+                width: 100%;
+                display: block;
+                background-image: url("taustakuva.jpg");
+                background-position: 0px 0px;
+                background-size: auto;
+            }
 
             /*navigointipalkki*/
 
@@ -395,7 +404,6 @@
                 background-color: #555;
                 overflow: hidden;
                 position: relative;
-
             }
 
             .navbar #links {
@@ -409,296 +417,44 @@
             }
 
             .navbar a {
-                color: white;
-                padding: 14px 16px;
+                float: right;
+                font-size: 16px;
+                color: black;
+                padding: auto;
                 text-decoration: none;
-                font-size: 17px;
-                display: block;
+            }
+
+            .header {
+                padding-top: 10px;
+                float: left;
+                padding: 15px 20px;
             }
 
             .navbar a.icon {
+                overflow: hidden;
                 color: #fff;
                 display: block;
                 position: absolute;
                 right: 0;
                 top: 0;
-
-            }
-
-            .navbar a:hover {
-                background-color: #ddd;
-                color: white;
-            }
-
-            .header {
-                float: left;
-                padding-top: 10px;
-                margin-left: 0px;
-                padding: 15px 20px;
             }
 
             .navtext {
-                float: le;
-                color: white;
-                margin-left: 0%;
-                padding-left: 90px;
-                padding-bottom: 30px;
+                padding-left: 0px;
                 color: #fff;
-                font-size: 30px
+                font-size: 30px;
             }
 
             .navtext2 {
                 padding-top: 10px;
-                margin-left: 50%;
-                margin-right: 150px;
                 padding-bottom: 30px;
+                padding-right: 300px;
                 color: #fff;
-                font-size: 20px;
+                font-size: 15px;
             }
 
 
-            /*Profiili*/
-
-            .container-3 {
-                margin-top: 120px;
-                margin-bottom: 140px;
-                margin-left: 5%;
-                padding-left: 8%;
-                padding-right: 10%;
-                width: 100%;
-                height: auto;
-                width: 100%;
-                background-image: url(taustakuvapieni.jpg);
-                background-size: auto;
-            }
-
-            .kuvaa {
-                width: auto;
-                text-align: center;
-                padding: 15px;
-            }
-
-            .image-11 {
-                max-width: 100%;
-                height: auto;
-
-            }
-
-            .linkedinpicture {
-                padding-top: auto;
-
-            }
-
-            .picture {
-                padding-top: 20%;
-                width: 20%;
-                height: 30%;
-            }
-
-
-            .heading-11 {
-                margin-left: 0%;
-                font-size: 45px;
-                font-weight: 700;
-                color: #fff;
-                padding-bottom: 10px;
-                padding-left: 15%;
-                text-align: left;
-                padding-top: 30px;
-
-
-            }
-
-            .navbar-header {
-                padding-left: 0%;
-                margin-left: 0%;
-                position: static;
-                padding-top: 100px;
-            }
-
-            .container {
-                height: auto;
-                width: auto;
-                display: grid;
-                grid-template-columns: auto auto auto;
-                padding: 10px;
-                max-width: 100%;
-                margin-right: auto;
-                margin-left: auto;
-            }
-
-            .text-block-2 {
-                position: static;
-                margin-left: 5%;
-                color: #fff;
-                font-size: 25px;
-                font-weight: 700;
-                text-align: center;
-            }
-
-            .text-block-3 {
-                width: auto;
-                margin-left: 0%;
-                padding-right: 0px;
-                padding-left: 0px;
-                color: #fff;
-                font-size: 23px;
-            }
-
-            /*Koulutus*/
-
-            .container-4 {
-                margin-left: 5%;
-                padding-left: 8%;
-                padding-right: 10%;
-                width: 100%;
-                height: auto;
-                width: 90%;
-                margin-bottom: 140px;
-                background-image: url(taustakuvapieni.jpg);
-                background-size: auto;
-            }
-
-            .heading-2 {
-                font-size: 60px;
-                font-weight: 700;
-                color: #fff;
-                text-align: center;
-            }
-
-            .heading-12 {
-
-                color: #fffdfd;
-                font-size: 30px;
-                text-align: center;
-                font-weight: 700;
-            }
-
-            .text-block-4 {
-                padding-left: 0%;
-                text-align: left;
-                width: 100%;
-                color: #fff9f9;
-                font-size: 23px;
-            }
-
-            /*Työkokemus*/
-
-            .container-5 {
-                margin-left: 5%;
-                padding-left: 8%;
-                padding-right: 10%;
-                width: 100%;
-                height: auto;
-                width: 90%;
-                margin-bottom: 140px;
-                background-image: url(taustakuvapieni.jpg);
-                background-size: auto;
-            }
-
-            .heading-15 {
-                font-size: 60px;
-                font-weight: 700;
-                color: #fff;
-                text-align: center;
-            }
-
-            .heading-16 {
-                margin-bottom: 20px;
-                color: #fffdfd;
-                font-size: 20px;
-                text-align: center;
-                font-weight: 700;
-            }
-
-            .text-block-5 {
-                padding-left: 0%;
-                text-align: left;
-                width: 100%;
-                color: #fff9f9;
-                font-size: 23px;
-            }
-
-            /*Taidot*/
-
-            .container-6 {
-                margin-left: 5%;
-                padding-left: 8%;
-                padding-right: 10%;
-                width: 100%;
-                height: auto;
-                width: 90%;
-                margin-bottom: 140px;
-                background-image: url(taustakuvapieni.jpg);
-                background-size: auto;
-            }
-
-            .heading-18 {
-                float: center;
-                font-size: 60px;
-                font-weight: 700;
-                color: #fff;
-                text-align: center;
-            }
-
-            .heading-17 {
-                margin-bottom: 20px;
-                color: #fffdfd;
-                font-size: 40px;
-                text-align: left;
-                font-weight: 700;
-            }
-
-            .text-block-6 {
-                width: 500px;
-                color: #fff9f9;
-                font-size: 20px;
-                margin-left: 0px;
-            }
-
-            /*yhteystiedot*/
-
-            .text-block-7 {
-                padding-top: 20px;
-                color: #fff9f9;
-                font-size: 40px;
-            }
-
-            .former {
-                margin-top: 100px;
-                margin-left: 0%;
-                width: 200px;
-            }
-
-            .container-7 {
-                margin-left: 5%;
-                padding-left: 8%;
-                padding-right: 10%;
-                width: 100%;
-                height: auto;
-                width: 90%;
-                margin-bottom: 140px;
-                background-image: url(taustakuvapieni.jpg);
-                background-size: auto;
-            }
-
-            .container {
-                height: auto;
-                width: auto;
-                display: grid;
-                grid-template-columns: auto auto auto;
-                padding: 10px;
-                position: static;
-                max-width: 100%;
-                margin-right: auto;
-                margin-left: auto;
-            }
-
-            .col-xs-4 {
-                font-size: 25px;
-                margin-top: 120px;
-                width: auto;
-            }
+           
         }
 
         @media only screen and (max-width: 1500px) {
@@ -745,17 +501,13 @@
             }
 
             .navtext {
-                padding-left: 300px;
-                padding: top 10px;
-                padding-bottom: 30px;
+                padding-left: 0px;
                 color: #fff;
                 font-size: 30px;
             }
 
             .navtext2 {
-                padding-top: 10px;
-                padding-bottom: 30px;
-                padding-right: 800px;
+               
                 color: #fff;
                 font-size: 15px;
             }
@@ -763,14 +515,12 @@
             /*Profiili*/
 
             .container-3 {
-                margin-top: 140px;
-                margin-bottom: 140px;
                 margin-left: 5%;
                 padding-left: 8%;
                 padding-right: 10%;
-                width: 100%;
                 height: auto;
-                width: 90%;
+                width: auto;
+                margin-bottom: 140px;
                 background-image: url(taustakuvapieni.jpg);
                 background-size: auto;
             }
@@ -852,7 +602,7 @@
                 padding-right: 10%;
                 width: 100%;
                 height: auto;
-                width: 90%;
+                width: auto;
                 margin-bottom: 140px;
                 background-image: url(taustakuvapieni.jpg);
                 background-size: auto;
@@ -887,9 +637,8 @@
                 margin-left: 5%;
                 padding-left: 8%;
                 padding-right: 10%;
-                width: 100%;
                 height: auto;
-                width: 90%;
+                width: auto;
                 margin-bottom: 140px;
                 background-image: url(taustakuvapieni.jpg);
                 background-size: auto;
@@ -924,9 +673,8 @@
                 margin-left: 5%;
                 padding-left: 8%;
                 padding-right: 10%;
-                width: 100%;
                 height: auto;
-                width: 90%;
+                width: auto;
                 margin-bottom: 140px;
                 background-image: url(taustakuvapieni.jpg);
                 background-size: auto;
@@ -978,7 +726,7 @@
                 padding-right: 10%;
                 width: 100%;
                 height: auto;
-                width: 90%;
+                width: auto;
                 margin-bottom: 140px;
                 background-image: url(taustakuvapieni.jpg);
                 background-size: auto;
@@ -1003,6 +751,8 @@
                 width: auto;
             }
         }
+
+
     </style>
 </head>
 
@@ -1278,10 +1028,10 @@
                     <br>
 
                     <input type="radio" id="kylla" name="vastaus" value="kylla">
-                      <label for="kylla">Kyllä</label><br>
+                      <label for="kylla">Kyllä</label><br>
 
-                      <input type="radio" id="ei" name="vastaus" value="ei">
-                      <label for="ei">Ei</label><br>
+                      <input type="radio" id="ei" name="vastaus" value="ei">
+                      <label for="ei">Ei</label><br>
                     <br><br>
 
                     <label class="text" for="fname">Mitä voisin kehittää työnhaussani?</label><br>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-   <title>Projekti</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -717,7 +717,7 @@
                 background-color: white;
                 position: relative;
             }
-    
+
             .navbar a {
                 float: right;
                 font-size: 16px;
@@ -725,13 +725,13 @@
                 padding: auto;
                 text-decoration: none;
             }
-    
+
             .header {
                 padding-top: 10px;
                 float: left;
                 padding: 15px 20px;
             }
-    
+
             .navbar a.icon {
                 overflow: hidden;
                 color: #fff;
@@ -740,7 +740,7 @@
                 right: 0;
                 top: 0;
             }
-    
+
             .navtext {
                 padding-left: 300px;
                 padding: top 10px;
@@ -748,7 +748,7 @@
                 color: #fff;
                 font-size: 30px;
             }
-    
+
             .navtext2 {
                 padding-top: 10px;
                 padding-bottom: 30px;

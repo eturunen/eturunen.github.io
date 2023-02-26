@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <style>
@@ -69,10 +68,7 @@
         /* Profiiliosion tyylin määrittely */
 
         .container-3 {
-            height: auto;
-            width: auto;
-            margin-left: 10%;
-            margin-right: 10%;
+            width: 100%;
             margin-top: 10%;
             margin-bottom: 10%;
             padding: 2% 5% 5%;
@@ -318,7 +314,11 @@
 
         /*kokeilua*/
 
-        @media screen and (max-width: 500px) {
+        @media only screen and (max-width: 768px) {
+
+            [class*="col-"] {
+                width: 100%;
+            }
 
             .html,
             body {
@@ -384,8 +384,247 @@
                 font-size: 15px;
             }
 
+            /*Profiili*/
 
-           
+            .container-3 {
+                width: 100%;
+                margin-top: 10%;
+                margin-bottom: 10%;
+                padding: 2% 5% 5%;
+                background-image: url(taustakuvapieni.jpg);
+                text-align: left;
+            }
+
+            .image-11 {
+                width: 5%;
+            }
+
+            .linkedinpicture {
+                padding-top: auto;
+
+            }
+
+            .picture {
+                padding-top: 20%;
+                width: 20%;
+                height: 30%;
+            }
+
+            .heading-11 {
+                margin-left: 0%;
+                font-size: 50px;
+                font-weight: 700;
+                color: #fff;
+                text-align: left;
+            }
+
+            .navbar-header {
+                float: left;
+                position: static;
+            }
+
+            .text-block-2 {
+                padding-top: 5%;
+                color: #fff;
+                font-size: 20px;
+                font-weight: 700;
+                text-align: center;
+            }
+
+            .text-block-3 {
+                width: auto;
+                margin-left: 35%;
+                padding-left: 15%;
+                color: #fff;
+                font-size: 25px;
+            }
+
+            /*Koulutus osan tyyli*/
+
+            .container-4 {
+                height: auto;
+                width: auto;
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-top: 10%;
+                margin-bottom: 10%;
+                padding: 2% 5% 5%;
+                background-image: url(taustakuvapieni.jpg);
+                text-align: left;
+            }
+
+            .heading-2 {
+                font-size: 40px;
+                font-weight: 700;
+                color: #fff;
+                text-align: center;
+            }
+
+            .heading-12 {
+
+                color: #fffdfd;
+                font-size: 30px;
+                text-align: center;
+                font-weight: 700;
+            }
+
+            .text-block-4 {
+                padding-left: 35%;
+                color: #fff9f9;
+                font-size: 25px;
+                text-align: left;
+            }
+
+            /*Tyyli työkokemus osiolle*/
+
+            .container-5 {
+                height: auto;
+                width: auto;
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-top: 10%;
+                margin-bottom: 10%;
+                padding: 2% 5% 5%;
+                background-image: url(taustakuvapieni.jpg);
+                text-align: left;
+            }
+
+            .heading-15 {
+                font-size: 60px;
+                font-weight: 700;
+                color: #fff;
+                text-align: center;
+            }
+
+            .heading-16 {
+                color: #fffdfd;
+                font-size: 30px;
+                text-align: center;
+                font-weight: 700;
+            }
+
+            .text-block-5 {
+                width: 75%;
+                padding-left: 35%;
+                color: #fff9f9;
+                font-size: 25px;
+            }
+
+            /* Tyyli Taidot osiolle*/
+
+            .container-6 {
+                height: auto;
+                width: auto;
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-top: 10%;
+                margin-bottom: 10%;
+                padding: 2% 5% 5%;
+                background-image: url(taustakuvapieni.jpg);
+                text-align: left;
+            }
+
+            .heading-18 {
+                float: center;
+                font-size: 60px;
+                font-weight: 700;
+                color: #fff;
+                text-align: center;
+            }
+
+            .heading-17 {
+                color: #fffdfd;
+                font-size: 40px;
+                text-align: center;
+                font-weight: 700;
+            }
+
+            .text-block-6 {
+                margin-left: 5%;
+                width: 100%;
+                padding-left: 40%;
+                color: #fff9f9;
+                font-size: 25px;
+            }
+
+            /*Tyyli Yhteystiedot osiolle*/
+
+            .container-7 {
+                height: auto;
+                width: auto;
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-top: 10%;
+                margin-bottom: 10%;
+                padding: 2% 5% 5%;
+                background-image: url(taustakuvapieni.jpg);
+                text-align: left;
+            }
+
+            .grid-container {
+                display: inline;
+                height: auto;
+                display: grid;
+                grid-template-columns: 50% 50%;
+
+            }
+
+            .grid-item1 {
+                font-size: 30px;
+                text-align: center;
+            }
+
+            .grid-item2 {
+                background-color: #fff;
+            }
+
+            .text-block-7 {
+                padding-top: 30%;
+                color: #fff9f9;
+                font-size: 40px;
+            }
+
+            .phone {
+                list-style-image: url(puhelin.png);
+            }
+
+            .email {
+                list-style-image: url(sähköposti.png);
+            }
+
+            .linkedin {
+                list-style-image: url(linkedinkuva2.png);
+            }
+
+            .former {
+                position: static;
+                background-size: auto;
+                padding-top: 5%;
+                padding-bottom: 5%;
+                padding-left: 10%;
+                height: 100%;
+                width: 100%;
+                margin-left: 50%;
+                background-color: #fff;
+                font-size: 25px;
+            }
+
+            .formheader {
+                padding-left: 10%;
+                color: black;
+                font-size: 40px;
+                text-align: left;
+                font-weight: 700;
+
+            }
+
+            .div-block-4 {
+                height: 50px;
+            }
+
+            .div-block-6 {
+                height: 100px;
+            }
         }
 
         @media only screen and (max-width: 1500px) {
@@ -443,11 +682,26 @@
                 font-size: 15px;
             }
 
-            [class*="container-"]{
-                width: 100%
-            }
-        }
+            /*Profiili*/
 
+            .container-3 {
+                width: 100%;
+                margin-top: 10%;
+                margin-bottom: 10%;
+                padding: 2% 5% 5%;
+                background-image: url(taustakuvapieni.jpg);
+                text-align: left;
+            }
+
+            .kuvaa {
+                width: auto;
+                text-align: center;
+            }
+
+            .image-11 {
+                margin-left: 10%;
+                max-width: 100%;
+                height: auto;
 
             }
 
@@ -665,8 +919,6 @@
                 width: auto;
             }
         }
-
-
     </style>
 </head>
 
@@ -685,19 +937,20 @@
                 </li>
 
                 <div class="dropdown" id="links">
-
-                    <a id="otayhteytta" href="#nelja">
-                        <h4 class="navtext2">Ota yhteyttä</h4>
-                    </a>
-                    <a id="taidot" href="#kolme">
-                        <h4 class="navtext2">Taidot</h4>
-                    </a>
-                    <a id="työkokemus" href="#kaksi">
-                        <h4 class="navtext2">Työkokemus</h4>
-                    </a>
-                    <a id="koulutus" href="#yksi">
-                        <h4 onclick="myFunction()" class="navtext2">Koulutus</h4>
-                    </a>
+                    <li>
+                        <a id="otayhteytta" href="#nelja">
+                            <h4 class="navtext2">Ota yhteyttä</h4>
+                        </a>
+                        <a id="taidot" href="#kolme">
+                            <h4 class="navtext2">Taidot</h4>
+                        </a>
+                        <a id="työkokemus" href="#kaksi">
+                            <h4 class="navtext2">Työkokemus</h4>
+                        </a>
+                        <a id="koulutus" href="#yksi">
+                            <h4 onclick="myFunction()" class="navtext2">Koulutus</h4>
+                        </a>
+                    </li>
 
                 </div>
 

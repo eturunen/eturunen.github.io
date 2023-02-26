@@ -5,13 +5,14 @@
     <title>CV</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    
+
 
     <style>
-
         /*Navigointipalkille tyyli*/
 
-        .navbar {
+        .topnav {
+            height: 10%;
+            overflow: hidden;
             background-color: #585858;
             box-shadow: 8px 8px 11px 0 #000;
             opacity: 0.92;
@@ -22,37 +23,23 @@
 
         }
 
-        .navbar a {
-            float: right;
-            font-size: 16px;
-            color: black;
-            padding: auto;
+        .topnav a {
+            float:left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
             text-decoration: none;
+            font-size: 25px;
         }
 
-        .header {
-            float: left;
+        .topnav:hover{
+            background-color: gray;
+            color: #000;
         }
 
-        .navbar a.icon {
-            overflow: hidden;
-            color: #fff;
-            position: absolute;
-            right: 0;
-            top: 0;
-        }
-
-        .navtext {
-            padding-bottom: 10%;
-            color: #fff;
+        .topnav a.navtext{
+            background-color: violet;
             font-size: 30px;
-        }
-
-        .navtext2 {
-            padding-top: 10%;
-            padding-right: 100px;
-            color: #fff;
-            font-size: 20px;
         }
 
         /*rakenteen määrittely*/
@@ -316,123 +303,12 @@
 
         /*kokeilua*/
 
-        @media only screen and (max-width: 768px) {
-
-
-            /*navigointipalkki*/
-
-            .navbar {
-                background-color: #555;
-                overflow: hidden;
-                position: relative;
-            }
-
-            .navbar #links {
-                display: none;
-            }
-
-            .container-fluid {
-                overflow: hidden;
-                background-color: white;
-                position: relative;
-            }
-
-            .navbar a {
-                float: right;
-                font-size: 16px;
-                color: black;
-                padding: auto;
-                text-decoration: none;
-            }
-
-            .header {
-                padding-top: 10px;
-                float: left;
-                padding: 15px 20px;
-            }
-
-            .navbar a.icon {
-                color: #fff;
-                display: block;
-                position: absolute;
-                right: 0;
-                top: 0;
-            }
-
-            .navtext {
-                padding-left: 0px;
-                color: #fff;
-                font-size: 30px;
-            }
-
-            .navtext2 {
-                padding-top: 10px;
-                padding-bottom: 30px;
-                padding-right: 300px;
-                color: #fff;
-                font-size: 15px;
-            }
-
-        }
-
         @media only screen and (max-width: 1500px) {
 
             /*navigointipalkki*/
-
-            .navbar {
-                background-color: #555;
-                overflow: hidden;
-                position: relative;
-            }
-
-            .navbar #links {
-                display: none;
-            }
-
-            .container-fluid {
-                overflow: hidden;
-                background-color: white;
-                position: relative;
-            }
-
-            .navbar a {
-                float: right;
-                font-size: 16px;
-                color: black;
-                padding: auto;
-                text-decoration: none;
-            }
-
-            .header {
-                padding-top: 10px;
-                float: left;
-                padding: 15px 20px;
-            }
-
-            .navbar a.icon {
-                overflow: hidden;
-                color: #fff;
-                display: block;
-                position: absolute;
-                right: 0;
-                top: 0;
-            }
-
-            .navtext {
-                padding-left: 0px;
-                color: #fff;
-                font-size: 30px;
-            }
-
-            .navtext2 {
-
-                color: #fff;
-                font-size: 15px;
-            }
-
             /*Profiili*/
 
-            .container-3{
+            .container-3 {
                 margin-left: 5%;
                 padding-left: 8%;
                 padding-right: 10%;
@@ -442,7 +318,7 @@
                 margin-bottom: 140px;
                 background-image: url(taustakuvapieni.jpg);
                 background-size: auto;
-            
+
             }
 
             .kuvaa {
@@ -677,35 +553,19 @@
 
 <body class="body">
 
-    <div id="navigointi" class="navbar navbar-inverse">
-
-        <div class="container-fluid" style="background-color: #5a5a5a">
-
-            <h1 class="nav navbar-toggler">
-                <li class="header">
-                    <a id="profiili" href="#viisi">
-                        <h2 class="navtext">Elli Esimerkki</h2>
-                    </a>
-                </li>
-
-                <div class="dropdown" id="links">
-                        <a id="otayhteytta" href="#nelja">
-                            <h4 class="navtext2">Ota yhteyttä</h4>
-                        </a>
-                        <a id="taidot" href="#kolme">
-                            <h4 class="navtext2">Taidot</h4>
-                        </a>
-                        <a id="työkokemus" href="#kaksi">
-                            <h4 class="navtext2">Työkokemus</h4>
-                        </a>
-                        <a id="koulutus" href="#yksi">
-                            <h4 onclick="myFunction()" class="navtext2">Koulutus</h4>
-                        </a>
-                </div>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
+    <div class="topnav">
+        <div id="navigointi">
+            <a id="profiili" class="navtext" href="#viisi">Elli Esimerkki</a>
+            <a id="koulutus" href="#yksi" onclick="myFunction()">Koulutus</a>
+            <a id="työkokemus"  href="#kaksi">Työkokemus</a>
+            <a id="taidot" href="#kolme">Taidot</a>
+            <a id="otayhteytta"  href="#nelja">Ota yhteyttä</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
         </div>
     </div>
+
+    
 
 
     <div class="container-3 w-container">

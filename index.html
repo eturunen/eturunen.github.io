@@ -418,6 +418,12 @@
                 margin-right: 150px;
             }
 
+            .topnav {
+                width: 100%;
+                background-color: #333;
+               
+            }
+
             .topnav a:not(:first-child) {
                 display: none;
             }
@@ -428,7 +434,7 @@
             }
 
             .topnav.responsive {
-                width:650px;
+                width: 650px;
                 position: relative;
             }
 
@@ -444,12 +450,12 @@
                 text-align: left;
             }
         }
+        
     </style>
 </head>
 
 
 <body class="body">
-
 
     <div class="topnav" id="navigointi">
         <a id="profiili" class="navtext" href="#viisi">Elli Esimerkki</a>
@@ -457,10 +463,14 @@
         <a id="työkokemus" href="#kaksi">Työkokemus</a>
         <a id="taidot" href="#kolme">Taidot</a>
         <a id="otayhteytta" href="#nelja">Ota yhteyttä</a>
+
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
     </div>
+
+
+
 
     <div class="container-3 w-container">
         <div class="section wf-section"></div>
@@ -720,11 +730,11 @@
         function myFunction() {
             var x = document.getElementById("navigointi");
             if (x.className === "topnav") {
-                x.className += " responsive";
+              x.className += " responsive";
             } else {
-                x.className = "topnav";
+              x.className = "topnav";
             }
-        }
+          }
         /*toiminnallisuus lomakkeen tarkistukseen*/
 
         function tarkista() {

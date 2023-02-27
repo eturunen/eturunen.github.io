@@ -23,6 +23,8 @@
             position: fixed;
             top: 0;
             width: 100%;
+            display: block;
+            transition: top 0.3s;
 
         }
 
@@ -421,7 +423,7 @@
 
             .topnav {
                 width: 100%;
-                background-color: #333; 
+                background-color: #333;
             }
 
             .topnav a:not(:first-child) {
@@ -433,8 +435,8 @@
                 display: block;
             }
 
-            .topnav.responsive { 
-                width: 650px; 
+            .topnav.responsive {
+                width: 650px;
                 position: relative;
             }
 
@@ -450,7 +452,6 @@
                 text-align: left;
             }
         }
-        
     </style>
 </head>
 
@@ -727,14 +728,29 @@
 
     <script>
 
+        /*funktio mobiilinaville*/
         function myFunction() {
             var x = document.getElementById("navigointi");
             if (x.className === "topnav") {
-              x.className += " responsive";
+                x.className += " responsive";
             } else {
-              x.className = "topnav";
+                x.className = "topnav";
             }
-          }
+        }
+
+        /*toiminnallisuus navigoinnin piilottamiselle*/
+
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navigointi").style.top = "0";
+            } else {
+                document.getElementById("navigointi").style.top = "-70px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+
         /*toiminnallisuus lomakkeen tarkistukseen*/
 
         function tarkista() {

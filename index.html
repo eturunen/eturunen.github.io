@@ -12,6 +12,11 @@
 
 
     <style>
+        .wf-section {
+            padding-left: 0;
+            margin-left: 0;
+        }
+
         /*Navigointipalkille tyyli*/
 
         .topnav {
@@ -76,7 +81,9 @@
         }
 
         .image-11 {
-            width: 20%;
+            width: 200px;
+            height: 300px;
+            object-fit: cover;
         }
 
         .linkedinpicture {
@@ -145,18 +152,27 @@
         }
 
         .heading-12 {
-
             color: #fffdfd;
             font-size: 30px;
-            text-align: center;
             font-weight: 700;
         }
 
         .text-block-4 {
-            margin-left: 42%;
             color: #fff9f9;
             font-size: 25px;
             text-align: left;
+        }
+
+        .koulutus1 {
+            margin-left: 40%;
+            color: #fff9f9;
+            font-size: 25px;
+            text-align: left;
+        }
+
+        .koulutus2 {
+            margin-left: 40%;
+
         }
 
         /*Tyyli työkokemus osiolle*/
@@ -180,18 +196,34 @@
             text-align: center;
         }
 
+        .heading-luottamustehtavat {
+            font-size: 60px;
+            font-weight: 700;
+            color: #fff;
+            margin-left: 10%;
+
+        }
+
         .heading-16 {
+
             color: #fffdfd;
             font-size: 30px;
             text-align: center;
             font-weight: 700;
+            padding-left: 0%;
+            margin-right: 35%;
         }
 
         .text-block-5 {
+            text-align: left;
             width: 70%;
-            padding-left: 35%;
             color: #fff9f9;
             font-size: 25px;
+        }
+
+        .tyokokemus {
+            width: 50%;
+            margin-left: 30%;
         }
 
         /* Tyyli Taidot osiolle*/
@@ -289,6 +321,7 @@
             height: 100%;
             width: 100%;
             margin-left: 50%;
+            margin-top: 15%;
             background-color: #fff;
             font-size: 25px;
         }
@@ -309,6 +342,7 @@
         .div-block-6 {
             height: 100px;
         }
+
 
         @media only screen and (max-width:800px) {
 
@@ -468,7 +502,7 @@
         @media only screen and (max-width:1350px) {
             @media only screen and (min-width:800px) {
 
-                .image-11{
+                .image-11 {
                     margin-left: 0%;
                     margin-right: 0;
                     padding-left: 0%;
@@ -584,7 +618,7 @@
                     width: 100%;
                     background-color: #333;
                 }
-    
+
                 .topnav a {
                     float: left;
                     display: block;
@@ -593,28 +627,28 @@
                     text-decoration: none;
                     font-size: 17px;
                 }
-    
+
                 .main {
                     padding: 16px;
                     margin-top: 30px;
                     height: 1500px;
                 }
-    
+
                 .topnav a:not(:first-child) {
                     display: none;
                 }
-    
+
                 .topnav a.icon {
                     float: right;
                     display: block;
                 }
-    
+
                 .topnav.responsive .icon {
                     position: absolute;
                     right: 0;
                     top: 0;
                 }
-    
+
                 .topnav.responsive a {
                     float: none;
                     display: block;
@@ -639,9 +673,9 @@
         </a>
     </div>
 
-    <div class="container-3 w-container">
-        <div class="section wf-section"></div>
+    <div class="container-3">
 
+        <div class="wf-section"></div>
         <div class="navbar-header">
             <div class="kuvaa">
                 <a class="image-11"></a><img src="profiilikuva2.jpg"></a>
@@ -722,16 +756,16 @@
         </div>
     </div>
 
-    <div class="container-4 w-container">
+    <div class="container-4">
         <div class="wf-section">
             <h1 id="yksi" class="heading-2">Koulutus</h1>
         </div>
+
         <div class="div-block-4"></div>
 
-        <div class="wf-section">
+        <div class="koulutus1">
             <h3 class="heading-12">Luonnontieteiden kandidaatti</h3>
-        </div>
-        <div class="wf-section">
+
             <div class="text-block-4">- Pääaine: Tietojenkäsittelytiede<br>- Sivuaine: Johtaminen ja markkinointi<br>-
                 Itä-Suomen yliopisto<br>- Syyskuu 2021-nykyhetki</div>
         </div>
@@ -739,75 +773,73 @@
 
         <div class="div-block-2"></div>
 
-        <div class="wf-section">
+        <div class="koulutus2">
             <h3 class="heading-12">Ylioppilas</h3>
-        </div>
-        <div class="wf-section">
             <div class="text-block-4">- Forssan yhteislyseo<br>- 2017-2020</div>
         </div>
     </div>
 
+
     <div class="container-5 w-container">
+
         <div class="wf-section">
             <h1 id="kaksi" class="heading-15">Työkokemus</h1>
         </div>
+
         <div class="div-block-4"></div>
 
-        <div class="wf-section">
+        <div class="tyokokemus">
             <h3 class="heading-16">STUDENT MARKETEER<br>Red Bull Finland Oy<br>10.03.2022 - nykyhetki</h3>
-        </div>
-        <br>
-        <div class="wf-section">
+            <br>
+
             <div class="text-block-5">- Suoramarkkinointi kuluttajalle sekä markkinoinnin suunnittelu yhdessä
                 asiakashankintatiimin kanssa. Toimin satunnaisesti myös myyntitiimin apuna erinäköisissä
                 tehtävissä<br><br>- Olen oppinut vastuunottamista, organisointia, sekä yhteistyötaitoja</div>
-        </div>
 
-        <div class="div-block-6"></div>
-        <div class="wf-section">
+            <div class="div-block-6"></div>
+
             <h3 class="heading-16">MYYJÄ<br>Osuuskauppa Hämeenmaa<br>03.03.2020 - 31.12.2020 &<br>02.06.2021 -
                 13.08.2021 &<br>10.12.2021 - 31.12.2021</h3>
-        </div>
-        <br>
-        <div class="wf-section">
+            <br>
+
             <div class="text-block-5">-Kassatyöskentely, asiakaspalvelu sekä muut vähittäiskaupan työtehtävät, kuten
                 tuotteiden hyllytys ja saldojen hallinta.‍<br><br>- Olen saanut tunnustusta tehokkuudesta,
                 tiimityöskentelytaidoista, asiakaspalvelusta sekä organisointitaidoista</div>
-        </div>
 
-        <div class="div-block-6"></div>
-        <div class="wf-section">
+            <div class="div-block-6"></div>
+
             <h3 class="heading-16">LIIKENNEASEMATYÖNTEKIJÄ<br>Hansatie Oy<br>06.08.2019 - 22.02.2020</h3>
-        </div>
-        <br>
-        <div class="wf-section">
+            <br>
+
             <div class="text-block-5">- Shop & Hesburger: Kassalla työskentely, tarjoilu, keittiötyöt‍<br><br>- Opin
                 tiimityöskentelyä, organisointia sekä kehitin paineensietokykyä</div>
-        </div>
-        <div class="div-block-6"></div>
 
-        <div class="wf-section">
-            <h1 class="heading-15">Luottamustehtävät</h1>
-        </div>
-        <div class="4"></div>
-        <div class="div-block-4"></div>
-        <div class="wf-section">
+            <div class="div-block-6"></div>
+
+            <div class="wf-section">
+                <h1 class="heading-luottamustehtavat">Luottamustehtävät</h1>
+            </div>
+
+
+            <div class="div-block-4"></div>
+
             <h3 class="heading-16">VARAPUHEENJOHTAJA<br>Serveri ry<br>01/23 - nykyhetki</h3>
-        </div>
-        <br>
+            <br>
 
-        <div class="wf-section">
-            <div class="text-block-5">-Tehtäviini kuuluu operatiivinen johtaminen yhdessä puheenjohtajan kanssa. Tämän
+            <div class="text-block-5">-Tehtäviini kuuluu operatiivinen johtaminen yhdessä puheenjohtajan kanssa.
+                Tämän
                 lisäksi olen toiminut kaikkien hallituslaisten apuna, mutta erityisesti tapahtumien parissa.</div>
-        </div>
-        <div class="div-block-6"></div>
 
-        <h3 class="heading-16">TAPAHTUMAVASTAAVA<br>Serveri ry<br>01/22 - 12/22</h3>
-        <br>
-        <div class="wf-section">
-            <div class="text-block-5">-Tehtäviini kuului tapahtumien suunnittelu ja toteutus omalle jäsenistölle sekä
+            <div class="div-block-6"></div>
+
+            <h3 class="heading-16">TAPAHTUMAVASTAAVA<br>Serveri ry<br>01/22 - 12/22</h3>
+            <br>
+
+            <div class="text-block-5">-Tehtäviini kuului tapahtumien suunnittelu ja toteutus omalle jäsenistölle
+                sekä
                 poikkitieteellisesti kaikille opiskelijoille, yritysten kontaktointi sekä tapahtumien markkinointi
-                sosiaalisessa mediassa.</div>
+                sosiaalisessa mediassa.
+            </div>
         </div>
     </div>
 

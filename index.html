@@ -84,7 +84,6 @@
 
         .kuvaosio {
             float: left;
-            width: 20px;
             margin-left: 0;
         }
 
@@ -354,6 +353,8 @@
         @media only screen and (max-width:800px) {
 
             .container-3 {
+                display: grid;
+                grid-template-columns: auto;
                 width: 800px;
                 margin-left: 0;
                 margin-right: 0;
@@ -361,11 +362,23 @@
                 margin-top: 150px;
             }
 
+            .kuvaosio {
+                float: left;
+                margin-left: 0;
+            }
+
+            .profiiliosio {
+                margin-left: 10%;
+                margin-right: 10%;
+                padding-left: 5%;
+                padding-right: 5%;
+                padding-top: 0%;
+            }
+
             .heading-11 {
-                margin-top: 1100px;
-                margin-left: 10px;
-                padding-top: 100px;
-                padding-left: 20%;
+                margin-left: 0%;
+                padding-left: 0%;
+                padding-top: 10%;
             }
 
             .text-block-2 {
@@ -531,17 +544,12 @@
             }
         }
 
-        @media only screen and (max-width:1350px) {
+        @media only screen and (max-width:1300px) {
             @media only screen and (min-width:800px) {
 
-                .image-11 {
-                    margin-left: 0%;
-                    margin-right: 0;
-                    padding-left: 0%;
-                    padding-right: 0%;
-                }
-
                 .container-3 {
+                    display: grid;
+                    grid-template-columns: auto;
                     margin-left: 100px;
                     margin-right: 100px;
                     margin-bottom: 140px;
@@ -550,11 +558,23 @@
                     padding-right: 1%;
                 }
 
+                .kuvaosio {
+                    float: left;
+                    margin-left: 0;
+                }
+
+                .profiiliosio {
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    padding-left: 5%;
+                    padding-right: 5%;
+                    padding-top: 0%;
+                }
+
                 .heading-11 {
-                    margin-top: 300px;
-                    margin-left: 15%;
-                    padding-top: 900px;
+                    margin-left: 0%;
                     padding-left: 0%;
+                    padding-top: 10%;
                 }
 
                 .text-block-2 {
@@ -732,19 +752,20 @@
         <div class="kuvaosio">
 
             <a class="image-11"></a><img src="profiilikuva2.jpg"></a>
-            
-                <ul style="list-style: none;">
-                    <li> <a
-                            href=https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2F><img
-                                src="linkedinkuva.png"></a></li>
-                    <br><br><br>
+            <br><br><br><br><br>
 
-                    <li><a id="otayhteytta" href="#nelja"><img src="puhelin.png"></a></li>
-                    <br><br><br>
-                    <li><a id="otayhteytta" href="#nelja"><img src="sähköposti2.png"></a></li>
-                </ul>
-            </div>
-    
+            <ul style="list-style: none;">
+                <li> <a
+                        href=https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2F><img
+                            src="linkedinkuva.png"></a></li>
+                <br><br><br>
+
+                <li><a id="otayhteytta" href="#nelja"><img src="puhelin.png"></a></li>
+                <br><br><br>
+                <li><a id="otayhteytta" href="#nelja"><img src="sähköposti2.png"></a></li>
+            </ul>
+        </div>
+
 
         <div class="profiiliosio">
             <h1 id="viisi" class="heading-11">Elli Esimerkki</h1>

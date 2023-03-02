@@ -744,11 +744,11 @@
 <body class="body">
 
     <div class="topnav" id="navigointi">
-        <a id="profiili" class="navtext" href="#viisi">Elli Esimerkki</a>
-        <a id="koulutus" href="#yksi" onclick="myFunction()">Koulutus</a>
-        <a id="työkokemus" href="#kaksi">Työkokemus</a>
-        <a id="taidot" href="#kolme">Taidot</a>
-        <a id="otayhteytta" href="#nelja">Ota yhteyttä</a>
+        <a id="viisi" class="navtext" href="#profiili">Elli Esimerkki</a>
+        <a id="yksi" href="#koulutus" onclick="myFunction()">Koulutus</a>
+        <a id="kaksi" href="#tyokokemus">Työkokemus</a>
+        <a id="kolme" href="#taidot">Taidot</a>
+        <a id="nelja" href="#otayhteytta">Ota yhteyttä</a>
 
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
@@ -776,7 +776,7 @@
 
 
         <div class="profiiliosio">
-            <h1 id="viisi" class="heading-11">Elli Esimerkki</h1>
+            <h1 id="profiili" class="heading-11">Elli Esimerkki</h1>
 
             <div class="text-block-2">22 vuotta | Kuopio
                 <br> Pääaine: Tietojenkäsittelytiede<br>Sivuaine: Johtaminen ja markkinointi <br><br>
@@ -840,7 +840,7 @@
 
     <div class="container-4">
         <div class="wf-section">
-            <h1 id="yksi" class="heading-2">Koulutus</h1>
+            <h1 id="koulutus" class="heading-2">Koulutus</h1>
         </div>
 
         <div class="div-block-4"></div>
@@ -865,7 +865,7 @@
     <div class="container-5 w-container">
 
         <div class="wf-section">
-            <h1 id="kaksi" class="heading-2">Työkokemus</h1>
+            <h1 id="tyokokemus" class="heading-2">Työkokemus</h1>
         </div>
 
         <div class="div-block-4"></div>
@@ -927,7 +927,7 @@
 
     <div class="container-6 w-container">
         <div class="wf-section">
-            <h1 id="kolme" class="heading-2">Taidot</h1>
+            <h1 id="taidot" class="heading-2">Taidot</h1>
         </div>
 
         <div class="div-block-4"></div>
@@ -963,7 +963,7 @@
         <div class="div-block-4"></div>
 
         <div class="wf-section">
-            <h1 id="nelja" class="heading-18">Yhteystiedot</h1>
+            <h1 id="yhteystiedot" class="heading-18">Yhteystiedot</h1>
         </div>
 
         <div class="tiedot">
@@ -1039,48 +1039,50 @@
             }
         }
 
+        /*toiminnallisuus navbarin scrollaustoimintoon*/
 
-        $('#koulutus').addClass("aktiivinen");
 
-        $("#koulutus").click(function () {
+        $('#yksi').addClass("aktiivinen");
+
+        $("#yksi").click(function () {
             $('html, body').animate({
-                scrollTop: $("#yksi").offset().top - 66
+                scrollTop: $("#koulutus").offset().top - 66
             }, 1000);
             return false;
         });
 
-        $('#työkokemus').addClass("aktiivinen");
+        $('#kaksi').addClass("aktiivinen");
 
-        $("#työkokemus").click(function () {
+        $("#kaksi").click(function () {
             $('html, body').animate({
-                scrollTop: $("#kaksi").offset().top - 66
+                scrollTop: $("#tyokokemus").offset().top - 66
             }, 1000);
             return false;
         });
 
-        $('#taidot').addClass("aktiivinen");
+        $('#kolme').addClass("aktiivinen");
 
-        $("#taidot").click(function () {
+        $("#kolme").click(function () {
             $('html, body').animate({
-                scrollTop: $("#kolme").offset().top - 66
+                scrollTop: $("#taidot").offset().top - 66
             }, 1000);
             return false;
         });
 
-        $('#otayhteytta').addClass("aktiivinen");
+        $('#nelja').addClass("aktiivinen");
 
-        $("#otayhteytta").click(function () {
+        $("#nelja").click(function () {
             $('html, body').animate({
-                scrollTop: $("#nelja").offset().top - 66
+                scrollTop: $("#yhteystiedot").offset().top - 66
             }, 1000);
             return false;
         });
 
-        $('#profiili').addClass("aktiivinen");
+        $('#viisi').addClass("aktiivinen");
 
-        $("#profiili").click(function () {
+        $("#viisi").click(function () {
             $('html, body').animate({
-                scrollTop: $("#viisi").offset().top - 66
+                scrollTop: $("#profiili").offset().top - 66
             }, 1000);
             return false;
         });

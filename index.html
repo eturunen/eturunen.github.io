@@ -245,7 +245,7 @@
         }
 
         .heading-18 {
-            float: center;
+            float: right;
             font-size: 60px;
             font-weight: 700;
             color: #fff;
@@ -271,6 +271,8 @@
         /*Tyyli Yhteystiedot osiolle*/
 
         .container-7 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
             height: auto;
             width: auto;
             margin-left: 10%;
@@ -282,27 +284,21 @@
             text-align: left;
         }
 
-        .grid-container {
-            display: inline;
-            height: auto;
-            display: grid;
-            grid-template-columns: 50% 50%;
-
+        .tiedot {
+            float: left;
+            margin-top: 0%;
+            padding-top: 10%;
         }
 
-        .grid-item1 {
-            font-size: 30px;
-            text-align: center;
-        }
-
-        .grid-item2 {
-            background-color: #fff;
+        .lomake {
+            float: left;
+            padding-bottom: 20%;
         }
 
         .text-block-7 {
-            padding-top: 30%;
+            padding-top: 20%;
             color: #fff9f9;
-            font-size: 40px;
+            font-size: 50px;
         }
 
         .phone {
@@ -318,21 +314,18 @@
         }
 
         .former {
-            position: static;
-            background-size: auto;
             padding-top: 5%;
+            padding-left: 15%;
             padding-bottom: 5%;
-            padding-left: 10%;
-            height: 100%;
-            width: 100%;
-            margin-left: 50%;
+            width: 70%;
+            height: 800px;
             margin-top: 15%;
             background-color: #fff;
             font-size: 25px;
         }
 
         .formheader {
-            padding-left: 10%;
+            padding-left: 0%;
             color: black;
             font-size: 40px;
             text-align: left;
@@ -428,6 +421,11 @@
                 padding-left: 0;
             }
 
+            .tyokokemus {
+                width: 80%;
+                margin-left: 20%;
+            }
+
             .heading-16 {
                 margin-left: 0;
 
@@ -440,12 +438,7 @@
             }
 
             .text-block-5 {
-                margin-left: 8%;
-            }
-
-            .tyokokemus {
-                width: 80%;
-                margin-left: 20%;
+                margin-left: 0%;
             }
 
             .heading-luottamustehtavat {
@@ -476,25 +469,41 @@
             }
 
             .container-7 {
+                display: grid;
+                grid-template-columns: auto;
                 width: 800px;
                 margin-left: 0;
                 margin-right: 0;
                 margin-bottom: 140px;
             }
 
+            .heading-18{
+                float: left;
+                margin-left: 20%;
+            }
+
+            .tiedot {
+                float: left;
+                margin-top: 0%;
+                padding-top: 10%;
+                padding-left: 10%;
+                padding-right: 10%;
+            }
+    
+            .lomake {
+                float: left;
+                margin-top: 10%;
+                padding-bottom: 20%;
+                padding-left: 10%;
+                padding-right: 10%;
+            }
+
             .former {
-                width: 500px;
+                width: 90%;
                 margin-top: 100px;
                 margin-right: 300px;
                 margin-left: 0;
                 padding-left: 20px;
-            }
-
-            .col-xs-4 {
-                margin-left: 0;
-                padding-left: 50px;
-                margin-left: 0;
-                margin-right: 200px;
             }
 
             .topnav {
@@ -917,7 +926,7 @@
 
     <div class="container-6 w-container">
         <div class="wf-section">
-            <h1 id="kolme" class="heading-18">Taidot</h1>
+            <h1 id="kolme" class="heading-15">Taidot</h1>
         </div>
 
         <div class="div-block-4"></div>
@@ -953,44 +962,44 @@
         <div class="wf-section">
             <h1 id="nelja" class="heading-18">Yhteystiedot</h1>
         </div>
+
         <div class="div-block-4"></div>
 
-        <div class="row">
-            <div class="col-xs-4">
-                <div class="text-block-7">
-                    <li class="phone">0123456789 </li>
-                    <br>
-                    <li class="email"><a href="mailto:elliesim@uef.fi"
-                            style="color: #fff; text-decoration: underline">elliesim@uef.fi</a></li>
-                    <br>
-                    <li class="linkedin"><a
-                            href=linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2F
-                            style="color: #fff; text-decoration: underline"> Elli Esimerkki</a></li>
-                </div>
+        <div class="tiedot">
+            <div class="text-block-7">
+                <li class="phone">0123456789 </li>
+                <br>
+                <li class="email"><a href="mailto:elliesim@uef.fi"
+                        style="color: #fff; text-decoration: underline">elliesim@uef.fi</a></li>
+                <br>
+                <li class="linkedin"><a
+                        href=linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2F
+                        style="color: #fff; text-decoration: underline"> Elli Esimerkki</a></li>
             </div>
-
-            <div class="col-xs-4">
-                <form class="former">
-                    <h2 class="formheader">* Kiinnostuitko?</h2>
-                    <br>
-
-                    <input type="radio" id="kylla" name="vastaus" value="kylla">
-                      <label for="kylla">Kyllä</label><br>
-
-                      <input type="radio" id="ei" name="vastaus" value="ei">
-                      <label for="ei">En</label><br>
-                    <br><br>
-
-                    <label class="text" for="fname">*Mitä voisin kehittää työnhaussani?</label><br>
-                    <input type="text" id="area1" name="area1"><br><br>
-
-                    <label class="text" for="lname">*Mikä oli onnistunut työnhaussani?</label><br>
-                    <input type="text" id="area2" name="area2"><br><br>
-                    <button id="nappi" type="submit" value="Vastaus" onclick="tarkista()">Vastaus</button>
-                </form>
-            </div>
-
         </div>
+
+        <div class="lomake">
+            <form class="former">
+                <h2 class="formheader">* Kiinnostuitko?</h2>
+                <br>
+
+                <input type="radio" id="kylla" name="vastaus" value="kylla">
+                  <label for="kylla">Kyllä</label><br>
+
+                  <input type="radio" id="ei" name="vastaus" value="ei">
+                  <label for="ei">En</label><br>
+                <br><br>
+
+                <label class="text" for="fname">*Mitä voisin kehittää työnhaussani?</label><br>
+                <input type="text" id="area1" name="area1"><br><br>
+
+                <label class="text" for="lname">*Mikä oli onnistunut työnhaussani?</label><br>
+                <input type="text" id="area2" name="area2"><br><br>
+                <button id="nappi" type="submit" value="Vastaus" onclick="tarkista()">Vastaus</button>
+            </form>
+        </div>
+    </div>
+
     </div>
 
 

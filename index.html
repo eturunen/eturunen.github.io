@@ -69,6 +69,8 @@
         /* Profiiliosion tyylin määrittely */
 
         .container-3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
             height: auto;
             width: auto;
             margin-left: 10%;
@@ -80,9 +82,20 @@
             text-align: left;
         }
 
+        .kuvaosio {
+            float: left;
+            width: 20px;
+            margin-left: 0;
+        }
+
+        .profiiliosio {
+            margin-left: 0%;
+            padding-left: 0%;
+        }
+
         .image-11 {
-            width: 200px;
-            height: 300px;
+            width: 20%;
+            height: 20%;
             object-fit: cover;
         }
 
@@ -93,23 +106,16 @@
 
         .picture {
             padding-top: 20%;
-            width: 20%;
+            width: 10%;
             height: 30%;
         }
 
-
         .heading-11 {
-            margin-left: 60%;
             font-size: 60px;
             font-weight: 700;
             color: #fff;
-            text-align: left;
-            padding-top: 30px;
-        }
+            text-align: center;
 
-        .navbar-header {
-            float: left;
-            position: static;
         }
 
         .text-block-2 {
@@ -118,16 +124,16 @@
             font-size: 30px;
             font-weight: 700;
             text-align: center;
-            margin-left: 40%;
+            margin-left: 0%;
+            padding-left: 0%;
         }
 
         .text-block-3 {
             padding-top: 3%;
             width: auto;
-            margin-left: 35%;
-            padding-left: 15%;
             color: #fff;
             font-size: 25px;
+            margin-left: 5%;
         }
 
         /*Koulutus osan tyyli*/
@@ -260,7 +266,7 @@
             font-size: 25px;
         }
 
-        .taidot{
+        .taidot {
             margin-left: 45%;
         }
 
@@ -397,10 +403,10 @@
                 font-size: 25px;
                 text-align: left;
             }
-    
+
             .koulutus2 {
                 margin-left: 20%;
-    
+
             }
 
             .container-5 {
@@ -413,8 +419,9 @@
 
             .heading-16 {
                 margin-left: 0;
-               
+
             }
+
             .heading-15 {
                 font-size: 55px;
                 margin-left: 0;
@@ -436,7 +443,7 @@
                 color: #fff;
                 margin-left: 0%;
             }
-    
+
             .container-6 {
                 width: 800px;
                 margin-left: 0;
@@ -445,7 +452,7 @@
                 padding-left: 0;
             }
 
-            .taidot{
+            .taidot {
                 margin-left: 35%;
             }
 
@@ -574,10 +581,10 @@
                     font-size: 25px;
                     text-align: left;
                 }
-        
+
                 .koulutus2 {
                     margin-left: 20%;
-        
+
                 }
 
                 .heading-12 {
@@ -594,6 +601,7 @@
                     margin-right: 100px;
                     margin-bottom: 140px;
                     padding-left: 0;
+                    padding-right: 10%;
                 }
 
                 .tyokokemus {
@@ -605,15 +613,11 @@
                     margin-left: 0;
                 }
 
-                .heading-15 {
-                    font-size: 55px;
-                }
-
                 .heading-luottamustehtavat {
-                    font-size: 55px;
+                    font-size: 50px;
                     font-weight: 700;
                     color: #fff;
-                    margin-left: 0%;
+                    margin-left: 5%;
                 }
 
                 .text-block-5 {
@@ -626,7 +630,7 @@
                     margin-bottom: 140px;
                 }
 
-                .taidot{
+                .taidot {
                     margin-left: 35%;
                 }
 
@@ -725,12 +729,10 @@
 
     <div class="container-3">
 
-        <div class="wf-section"></div>
-        <div class="navbar-header">
-            <div class="kuvaa">
-                <a class="image-11"></a><img src="profiilikuva2.jpg"></a>
-            </div>
-            <div class="picture">
+        <div class="kuvaosio">
+
+            <a class="image-11"></a><img src="profiilikuva2.jpg"></a>
+            
                 <ul style="list-style: none;">
                     <li> <a
                             href=https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2F><img
@@ -742,69 +744,70 @@
                     <li><a id="otayhteytta" href="#nelja"><img src="sähköposti2.png"></a></li>
                 </ul>
             </div>
-        </div>
+    
 
-        <div class="wf-section">
+        <div class="profiiliosio">
             <h1 id="viisi" class="heading-11">Elli Esimerkki</h1>
-            <div class="w-layout-grid grid-5">
-                <div class="text-block-2">22 vuotta | Kuopio
-                    <br> Pääaine: Tietojenkäsittelytiede<br>Sivuaine: Johtaminen ja markkinointi <br><br>
-                </div>
-                <div class="text-block-3">What is Lorem
-                    Ipsum?
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                    publishing software like Aldus PageMaker including versions of Lorem Ipsum is simply dummy text of
-                    the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                    publishing software like Aldus PageMaker including versions of Lorem Ipsum is simply dummy text of
-                    the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                    publishing software like Aldus PageMaker including versions of Lorem Ipsum is simply dummy text of
-                    the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                    publishing software like Aldus PageMaker including versions of Lorem Ipsum is simply dummy text of
-                    the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                    publishing software like Aldus PageMaker including versions of Lorem Ipsum is simply dummy text of
-                    the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                    publishing software like Aldus PageMaker including versions of Lorem Ipsum is simply dummy text of
-                    the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                    publishing software like Aldus PageMaker including versions of Lorem Ipsum is simply dummy text of
-                    the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                    ock leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
-                    1960s
-                    ock with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-                    desktop
-                    publishing software like Aldus PageMaker including versions of </div>
+
+            <div class="text-block-2">22 vuotta | Kuopio
+                <br> Pääaine: Tietojenkäsittelytiede<br>Sivuaine: Johtaminen ja markkinointi <br><br>
             </div>
+
+            <div class="text-block-3">What is Lorem
+                Ipsum?
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of Lorem Ipsum is simply dummy text of
+                the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of Lorem Ipsum is simply dummy text of
+                the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of Lorem Ipsum is simply dummy text of
+                the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of Lorem Ipsum is simply dummy text of
+                the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of Lorem Ipsum is simply dummy text of
+                the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of Lorem Ipsum is simply dummy text of
+                the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of Lorem Ipsum is simply dummy text of
+                the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                ock leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+                1960s
+                ock with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                desktop
+                publishing software like Aldus PageMaker including versions of </div>
         </div>
     </div>
+
 
     <div class="container-4">
         <div class="wf-section">
@@ -902,7 +905,7 @@
 
         <div class="taidot">
             <h3 class="heading-17">IT-taidot</h3>
-        <br>
+            <br>
             <div class="text-block-6">
                 <ul>
                     <li>Python</li>
@@ -913,11 +916,11 @@
                     <li>MS Office</li>
                 </ul>
             </div>
-        <br><br><br>
-        
+            <br><br><br>
+
             <h3 class="heading-17">Kielitaito</h3>
-        <br>
-        
+            <br>
+
             <div class="text-block-6">
                 <li>suomi - äidinkieli</li>
                 <li>englanti - sujuva</li>

@@ -1,0 +1,767 @@
+
+/*Navigointipalkille tyyli*/
+
+.topnav {
+    overflow: hidden;
+    background-color: #585858;
+    box-shadow: 8px 8px 11px 0 #000;
+    opacity: 0.92;
+    color: #585858;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.5s;
+
+}
+
+.topnav a {
+    margin-left: 10%;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav:hover {
+    background-color: rgb(63, 63, 63);
+    color: #000;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.topnav a.navtext {
+    background-color: rgb(184, 113, 184);
+    font-size: 25px;
+}
+
+/*rakenteen määrittely*/
+
+.html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+    background-image: url("taustakuva.jpg");
+    scroll-behavior: smooth;
+}
+
+/* Profiiliosion tyylin määrittely */
+
+.container-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 2% 5% 5%;
+    background-image: url(taustakuvapieni.jpg);
+    text-align: left;
+    box-shadow: 10px 10px 5px #000000;
+}
+
+.kuvaosio {
+    float: left;
+    margin-left: 0;
+}
+
+.profiiliosio {
+    margin-left: 0%;
+    padding-left: 0%;
+}
+
+.image-11 {
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+}
+
+.linkedinpicture {
+    padding-top: auto;
+
+}
+
+.picture {
+    padding-top: 20%;
+    width: 10%;
+    height: 30%;
+}
+
+.heading-11 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+
+}
+
+.text-block-2 {
+    padding-top: 1%;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 0%;
+    padding-left: 0%;
+}
+
+.text-block-3 {
+    padding-top: 3%;
+    width: auto;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 5%;
+}
+
+/*Koulutus osan tyyli*/
+
+.container-4 {
+    height: auto;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 2% 5% 5%;
+    background-image: url(taustakuvapieni.jpg);
+    text-align: left;
+    box-shadow: 10px 10px 5px #000000;
+}
+
+.heading-2 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+.heading-12 {
+    color: #fffdfd;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.text-block-4 {
+    color: #fff9f9;
+    font-size: 25px;
+    text-align: left;
+}
+
+.koulutus1 {
+    margin-left: 35%;
+    color: #fff9f9;
+    font-size: 25px;
+    text-align: left;
+}
+
+.koulutus2 {
+    margin-left: 35%;
+
+}
+
+/*Tyyli työkokemus osiolle*/
+
+.container-5 {
+    height: auto;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 2% 5% 5%;
+    background-image: url(taustakuvapieni.jpg);
+    text-align: left;
+    box-shadow: 10px 10px 5px #000000;
+}
+
+.heading-luottamustehtavat {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 0%;
+    padding-left: 5%;
+    text-align: left;
+
+}
+
+.heading-16 {
+    color: #fffdfd;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    padding-left: 0%;
+    margin-right: 35%;
+}
+
+.text-block-5 {
+    text-align: left;
+    width: 70%;
+    color: #fff9f9;
+    font-size: 25px;
+    margin-left: 5%;
+}
+
+.tyokokemus {
+    width: 50%;
+    margin-left: 32%;
+}
+
+/* Tyyli Taidot osiolle*/
+
+.container-6 {
+    height: auto;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 2% 5% 5%;
+    background-image: url(taustakuvapieni.jpg);
+    text-align: left;
+    box-shadow: 10px 10px 5px #000000;
+}
+
+.heading-18 {
+    float: left;
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+.heading-17 {
+    color: #fffdfd;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.text-block-6 {
+    width: 100%;
+    color: #fff9f9;
+    font-size: 25px;
+}
+
+.taidot {
+    margin-left: 45%;
+}
+
+/*Tyyli Yhteystiedot osiolle*/
+
+.container-7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 2% 5% 5%;
+    background-image: url(taustakuvapieni.jpg);
+    text-align: left;
+    box-shadow: 10px 10px 5px #000000;
+}
+
+.tiedot {
+    float: left;
+    margin-top: 0%;
+    padding-top: 10%;
+}
+
+.lomake {
+    float: left;
+    padding-bottom: 20%;
+}
+
+.text-block-7 {
+    padding-top: 20%;
+    color: #fff9f9;
+    font-size: 50px;
+}
+
+.phone {
+    list-style-image: url(puhelin.png);
+}
+
+.email {
+    list-style-image: url(sähköposti.png);
+}
+
+.linkedin {
+    list-style-image: url(linkedinkuva2.png);
+}
+
+.former {
+    margin-left: 0;
+    margin-top: 20%;
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    background-color: #fff;
+    font-size: 25px;
+}
+
+.formheader {
+    padding-left: 0%;
+    color: black;
+    font-size: 40px;
+    text-align: left;
+    font-weight: 700;
+
+}
+
+.div-block-4 {
+    height: 50px;
+}
+
+.div-block-6 {
+    height: 100px;
+}
+
+
+@media only screen and (max-width:800px) {
+
+    .container-3 {
+        display: grid;
+        grid-template-columns: auto;
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 800px;
+        margin-bottom: 140px;
+        margin-top: 150px;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+    .kuvaosio {
+        width: 90%;
+        padding-left: 0%;
+        float: left;
+        margin-left: 0%;
+        padding-left: 5%;
+
+    }
+
+    .image-11{
+        margin-right: 0%;
+        padding-left: 0%; 
+    }
+
+    .profiiliosio {
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 0%;
+    }
+
+    .heading-11 {
+        margin-left: 0%;
+        padding-left: 0%;
+        padding-top: 10%;
+    }
+
+    .text-block-2 {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .text-block-3 {
+        margin-left: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .container-4 {
+        display: grid;
+        grid-template-columns: auto;
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 800px;
+        margin-bottom: 140px;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+    .heading-12 {
+        margin-left: 0;
+        margin-right: 50px;
+        padding-left: 0;
+    }
+
+    .text-block-4 {
+        margin-left: 0;
+    }
+
+    .koulutus1 {
+        margin-left: 25%;
+        color: #fff9f9;
+        font-size: 25px;
+        text-align: left;
+    }
+
+    .koulutus2 {
+        margin-left: 25%;
+
+    }
+
+    .container-5 {
+        display: grid;
+        grid-template-columns: auto;
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 800px;
+        margin-bottom: 140px;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+    .tyokokemus {
+        padding-left: 0%;
+        padding-right: 5%;
+        width: 80%;
+        margin-left: 4%;
+    }
+
+    .heading-16 {
+        width: 100%;
+        margin-left: 10%;
+
+    }
+
+    .text-block-5 {
+        margin-left: 25%;
+    }
+
+    .heading-luottamustehtavat {
+        font-size: 55px;
+        font-weight: 700;
+        color: #fff;
+        margin-left: 17%;
+        float: left;
+    }
+
+    .container-6 {
+        display: grid;
+        grid-template-columns: auto;
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 800px;
+        margin-bottom: 140px;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+    .taidot {
+        margin-left: 35%;
+    }
+
+    .heading-17 {
+        margin-left: 0;
+        margin-right: 50px;
+        padding-left: 0;
+    }
+
+    .text-block-6 {
+        margin-left: 0;
+    }
+
+    .container-7 {
+        display: grid;
+        grid-template-columns: auto;
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 800px;
+        margin-bottom: 140px;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+    .heading-18 {
+        float: left;
+        margin-left: 20%;
+    }
+
+    .tiedot {
+        float: left;
+        margin-top: 0%;
+        padding-top: 0%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .lomake {
+        float: left;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .former {
+        width: 90%;
+        margin-left: 0;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 10%;
+        padding-bottom: 10%;
+    }
+
+    .topnav {
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #333;
+    }
+
+    .topnav a {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .main {
+        padding: 16px;
+        margin-top: 30px;
+        height: 1500px;
+    }
+
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width:1300px) {
+    @media only screen and (min-width:800px) {
+
+        .container-3 {
+            display: grid;
+            grid-template-columns: auto;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 140px;
+            margin-top: 150px;
+            padding-left: 1%;
+            padding-right: 1%;
+        }
+
+        .kuvaosio {
+            float: left;
+            margin-left: 0;
+            padding-left: 5%;
+        }
+
+        .profiiliosio {
+            margin-left: 10%;
+            margin-right: 10%;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 0%;
+        }
+
+        .heading-11 {
+            margin-left: 0%;
+            padding-left: 0%;
+            padding-top: 10%;
+        }
+
+        .text-block-2 {
+            padding-left: 30px;
+            margin-right: 100px;
+            margin-left: 0;
+        }
+
+        .text-block-3 {
+            margin-left: 0;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .container-4 {
+            display: grid;
+            padding-left: 5%;
+            padding-right: 5%;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 140px;
+        }
+
+        .koulutus1 {
+            margin-left: 20%;
+            color: #fff9f9;
+            font-size: 25px;
+            text-align: left;
+        }
+
+        .koulutus2 {
+            margin-left: 20%;
+
+        }
+
+        .heading-12 {
+            margin-left: 0;
+            padding-left: 0;
+        }
+
+        .text-block-4 {
+            margin-left: 0;
+        }
+
+        .container-5 {
+            display: grid;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 140px;
+            padding-left: 0;
+            padding-right: 10%;
+        }
+
+        .tyokokemus {
+            width: 100%;
+            margin-left: 20%;
+        }
+
+        .heading-16 {
+            margin-left: 0;
+        }
+
+        .heading-luottamustehtavat {
+            font-size: 50px;
+            font-weight: 700;
+            color: #fff;
+            margin-left: 2%;
+        }
+
+        .text-block-5 {
+            margin-left: 0;
+        }
+
+        .container-6 {
+            display: grid;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 140px;
+        }
+
+        .taidot {
+            margin-left: 35%;
+        }
+
+        .heading-17 {
+            margin-left: 0;
+        }
+
+        .text-block-6 {
+            margin-left: 0;
+        }
+
+        .container-7 {
+            display: grid;
+            grid-template-columns: auto;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 140px;
+        }
+
+        .heading-18 {
+            float: left;
+            margin-left: 20%;
+        }
+
+        .tiedot {
+            float: left;
+            margin-top: 0%;
+            padding-top: 0%;
+            margin-left: 15%;
+            margin-right: 10%;
+        }
+
+        .lomake {
+            float: left;
+            margin-top: 10%;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+
+        .former {
+            width: 100%;
+            margin-left: 0;
+            padding-top: 10%;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
+        .topnav {
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #333;
+        }
+
+        .topnav a {
+            float: left;
+            display: block;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .main {
+            padding: 16px;
+            margin-top: 30px;
+            height: 1500px;
+        }
+
+        .topnav a:not(:first-child) {
+            display: none;
+        }
+
+        .topnav a.icon {
+            float: right;
+            display: block;
+        }
+
+        .topnav.responsive .icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .topnav.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+        }
+    }
+}
+

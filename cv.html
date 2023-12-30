@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charest="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <title>Essin portfolio -CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <script src="https://kit.fontawesome.com/5276859ad5.js" crossorigin="anonymous"></script>
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+        <div class="container2">
+
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">
+                    <h2 class="logo">Portfo<span>lio.</span></h2>
+                </a>
+                <a href="/index.html">Etusivu</a>
+                <a class="active" href="cv.html">CV</a>
+                <a href="otayhteytta.html">Ota yhteyttä</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction1()">
+                    <i class="fa fa-bars"></i></a>
+            </div>
+
+        </div>
+
+        <div class="grid">
+            <div class="sisalto">
+                <div class="esittelyteksti">
+                    <img src="kuva.JPG" class="kuva" width="400px" height="500px">
+                    <div class="kohteet">
+                        <div class="h2otsikko">
+                            <h3>Pääaine: Tietojenkäsittelytiede | Sivuaine: Markkinointi ja johtaminen</h3>
+                        </div>
+                        <p class="kuvaus1">Olen kolmannen vuoden tietojenkäsittelytieteen opiskelija. Mielenkiintonani
+                            on digitaalinen markkinointi, web-kehitys, tietoturva sekä digitalisaation edistäminen.
+                            Valmistun luonnontieteiden kandidaatiksi keväällä 2024, ja olenkin valmis siirtymään
+                            työelämään sekä kohtaamaan uusia haasteita urallani. Olen työskennellyt asiakaspalvelussa
+                            useamman vuoden, joista viimeiset kaksi vuotta olen ollut Red Bull Finland Oy:n
+                            palveluksessa suoramarkkinoinnin ja asiakashankinnan parissa. Pidän ihmisten parissa
+                            työskentelystä sekä luovuutta ja ongelmanratkaisua vaativista tehtävistä.
+                            <br><br>
+                            Voisitko tarjota minulle seuraavan haasteni?
+                        </p>
+                    </div>
+                </div>
+
+                <button onclick="topFunction()" id="myBtn" title="Go to top">Ylös</button>
+
+
+                <div class="h3otsikko2">
+                    <h3>Taidot</h3>
+                </div>
+
+                <div class="taidotosio">
+
+                    <div class="ittaidot reveal">
+
+                        <h2 class="taidototsikot">IT-Taidot</h2>
+
+                        <ul class="progress-bars">
+                            <h4>Python & Java</h4>
+                            <li>
+                                <div class="bar">
+                                    <div class="progress" data-count="60"></div>
+                                </div>
+                                <span class="percentage">60%</span>
+                            </li>
+                            <h4>WEB työkalut: HTML, CSS, Javascript</h4>
+                            <li>
+                                <div class="bar">
+                                    <div class="progress" data-count="80"></div>
+                                </div>
+                                <span class="percentage">80%</span>
+                            </li>
+                            <h4>SQL</h4>
+                            <li>
+                                <div class="bar">
+                                    <div class="progress" data-count="60"></div>
+                                </div>
+                                <span class="percentage">60%</span>
+                            </li>
+                            <h4>MS Office</h4>
+                            <li>
+                                <div class="bar">
+                                    <div class="progress" data-count="90"></div>
+                                </div>
+                                <span class="percentage">90%</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="muuttaidot reveal">
+
+                        <h2 class="taidototsikot">Muut taidot</h2>
+
+                        <ul class="progress-bars">
+                            <h4>Ongelmanratkaisutaidot</h4>
+                            <li>
+                                <div class="bar">
+                                    <div class="progress" data-count="90"></div>
+                                </div>
+                                <span class="percentage">90%</span>
+                            </li>
+                            <h4>Paineensietokyky</h4>
+                            <li>
+                                <div class="bar">
+                                    <div class="progress" data-count="90"></div>
+                                </div>
+                                <span class="percentage">90%</span>
+                            </li>
+                            <h4>Asiakassuhteiden hallinta</h4>
+                            <li>
+                                <div class="bar">
+                                    <div class="progress" data-count="95"></div>
+                                </div>
+                                <span class="percentage">95%</span>
+                            </li>
+                            <h4>Tiimityöskentely</h4>
+                            <li>
+                                <div class="bar">
+                                    <div class="progress" data-count="100"></div>
+                                </div>
+                                <span class="percentage">100%</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="kielitaidot reveal">
+
+                    <h2 class="taidototsikot">Kielitaito</h2>
+
+                    <ul class="progress-bars">
+                        <h4>suomi</h4>
+                        <li>
+                            <div class="bar">
+                                <div class="progress" data-count="100"></div>
+                            </div>
+                            <span class="percentage">100%</span>
+                        </li>
+                        <h4>englanti</h4>
+                        <li>
+                            <div class="bar">
+                                <div class="progress" data-count="80"></div>
+                            </div>
+                            <span class="percentage">80%</span>
+                        </li>
+                        <h4>ruotsi</h4>
+                        <li>
+                            <div class="bar">
+                                <div class="progress" data-count="50"></div>
+                            </div>
+                            <span class="percentage">50%</span>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="h3otsikko2">
+                </div>
+
+                <div class="kohteetlista">
+                    <div class="kohteet reveal">
+                        <div class="icon">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <h5 class="valiotsikot">
+                            Koulutus</h5>
+                        <p class="vuosiluvut">2021 - 2024</p>
+                        <h3 class="koulutus">Luonnontieteiden kandidaatti</h3>
+                        <p class="opiskelupaikka">Itä-Suomen yliopisto</p>
+                        <div class="cvkuvaus">
+                            Pääaine: Tietojenkäsittelytiede <br>
+                            Sivuaine: Markkinointi & johtaminen <br> <br>
+                            Valmistun luonnontieteiden kandidaatiksi keväällä 2024.
+                        </div>
+                        <p class="vuosiluvut">2017 - 2020</p>
+                        <h3 class="koulutus">Ylioppilas</h3>
+                        <p class="opiskelupaikka">Forssan yhteislyseo</p>
+                        <div class="cvkuvaus">
+                            Lukion oppimäärä ja ylioppilastutkinto.
+                        </div>
+                    </div>
+
+                    <div class="kohteet reveal">
+                        <div class="icon">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <h5 class="valiotsikot">
+                            Työkokemus </h5>
+                        <p class="vuosiluvut">01.03.2022 - nykyhetki</p>
+                        <h3 class="koulutus">Student Marketeer</h3>
+                        <p class="opiskelupaikka">Red Bull Finland Oy</p>
+                        <div class="cvkuvaus">
+                            Asiakashankinta, suoramarkkinointi kuluttajalle sekä markkinoinnin suunnittelu yhdessä
+                            asiakashankintatiimin kanssa. Toimin satunnaisesti myös myyntitiimin tukena erinäköisissä
+                            tehtävissä.
+                        </div>
+
+                        <p class="vuosiluvut"> 3.03.2020 - 31.12.2020 & <br>
+                            02.06.2021 - 13.08.2021 & <br>
+                            10.12.2021 - 31.12.2021 </p>
+                        <h3 class="koulutus">Myyjä</h3>
+                        <p class="opiskelupaikka">Osuuskauppa Hämeenmaa</p>
+                        <div class="cvkuvaus">
+                            Kassatyöskentely, asiakaspalvelu sekä
+                            muut kaupan työtehtävät, kuten tuotteiden hyllytys ja saldojen hallinta. </div>
+
+
+                        <p class="vuosiluvut"> 26.08.2019 - 22.03.2020 </p>
+                        <h3 class="koulutus">Liikenneasematyöntekijä</h3>
+                        <p class="opiskelupaikka">Hansatie Oy</p>
+                        <div class="cvkuvaus">
+                            Shop & Hesburger: Asiakaspalvelu, kassatyöskentely, tarjoilu </div>
+                    </div>
+                </div>
+
+
+                <div class="ltotsikko">
+                    <h3>Luottamustehtävät</h3>
+                </div>
+
+                <div class="kohteetlista reveal">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <h2 class="korttiotsikko">Varapuheenjohtaja</h2>
+                                <p>2023</p>
+                                <p style="color: gray;">Serveri ry</p>
+                                <button class="btn btn-nappi">kurkkaa lisätiedot</button>
+                            </div>
+                            <div class="flip-card-back">
+                                <p class="korttiesittely">Tehtäviini kuului operatiivinen johtaminen yhdessä
+                                    puheenjohtajan kanssa.
+                                    Tämän lisäksi olen toiminut kaikkien hallituslaisten apuna, mutta erityisesti
+                                    tapahtumien
+                                    parissa.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <h2 class="korttiotsikko">Tapahtumavastaava</h2>
+                                <p>2022</p>
+                                <p style="color: gray;">Serveri ry</p>
+                                <button class="btn btn-nappi">Kurkkaa lisätiedot</button>
+                            </div>
+                            <div class="flip-card-back">
+                                <p class="korttiesittely">Tapahtumien suunnittelu ja toteutus omalle jäsenistölle sekä
+                                    poikkitieteellisesti kaikille opiskelijoille. Tämän lisäksi toimenkuvaani kuului
+                                    yritysten kontaktointi sekä tapahtumien markkinoinnista ja markkinointiviestinnästä
+                                    huolehtiminen etenkin sosiaalisessa mediassa.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <h2 class="korttiotsikko">Hallituksen jäsen</h2>
+                                <p>2021</p>
+                                <p style="color: gray;">West Wind Riders ry</p>
+                                <button class="btn btn-nappi">Kurkkaa lisätiedot</button>
+                            </div>
+                            <div class="flip-card-back">
+                                <p class="korttiesittely"> Erilaisten tapahtumien suunnittelu jäsenistölle sekä
+                                    seuratason kilpailuiden järjestäminen yhdessä muun hallituksen kanssa.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+
+        /*toiminnallisuus navbar iconille*/
+        function myFunction1() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+
+        /*toiminnallisuus progress bareille*/
+        const container = document.querySelector('.progress-bars');
+        const progress = document.querySelectorAll('.progress');
+        const percentage = document.querySelectorAll('.percentage');
+        let bol = false;
+        let count;
+
+        /*scrollauksen kuuntelija*/
+        window.addEventListener("scroll", () => {
+            /*aja kun scrollattu 400px ja aja ainoastaan kerran*/
+            if (pageYOffset > container.offsetTop - 1000 && bol == false) {
+                /*valitse kaikki bar:it*/
+                for (let i = 0; i < progress.length; i++) {
+                    /*kaikki alkavat 0*/
+                    percentage.innerText = 0;
+                    count = 0;
+
+                    /*hae data*/
+                    const data = parseInt(progress[i].dataset.count);
+
+                    /*aseta siirtymäaika data-arvon perusteella*/
+                    progress[i].style.transition = "width " + (data * 70) + "ms";
+                    /*siirrä edistymistä prosenttiluvun mukaan*/
+                    progress[i].style.width = data + "%";
+
+                    /*toiminto laskemiseen*/
+                    function updateCount() {
+                        /* laske ja lopeta kun tavoiteluku on saavutettu*/
+                        if (count < data) {
+                            count++;
+                            percentage[i].innerText = count + "%";
+                            setTimeout(updateCount, 50); /*laskunopeus*/
+                        } else {
+                            percentage[i].innerText = data + "%";
+                        }
+                    }
+                    updateCount();
+                    bol = true;
+                }
+            }
+        });
+
+        /*skripti loaderille*/
+        var myVar;
+        function myFunction() {
+            myVar = setTimeout(showPage, 1000);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+        }
+
+
+        /*skripti scrollaus ominaisuudelle*/
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 50;
+
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                } else {
+                    reveals[i].classList.remove("active");
+                }
+            }
+        }
+
+        window.addEventListener("scroll", reveal);
+
+
+        // ylös nappi
+        let mybutton = document.getElementById("myBtn");
+
+        // kun käyttäjä scrollaa 20 px alas, näytä nappi
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // kun käyttäjä klikkaa nappia, scrollataan ylös
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        $('button.nappi').click(function () {
+            $('div.flipcard').toggleClass('flip');
+        });
+
+    </script>
+
+</body>
+
+</html>

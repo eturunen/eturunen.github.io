@@ -9,6 +9,12 @@
     font-family: 'Karla', sans-serif;
 }
 
+.footer{
+    margin-left: 5%;
+    margin-bottom: 2%;
+    
+}
+
 body {
     color: #000;
     background-color: rgb(30, 30, 30);
@@ -22,7 +28,7 @@ body {
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 

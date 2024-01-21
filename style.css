@@ -11,9 +11,9 @@
 
 .footer{
     margin-left: 5%;
-    margin-bottom: 2%;
-    
+    margin-bottom: 4%;
 }
+
 
 body {
     color: #000;
@@ -94,6 +94,10 @@ div .h3otsikko2 {
     .kohdenimi1 {
         margin-bottom: 5%;
         margin-top: 10%;
+    }
+    .footer{
+        margin-bottom: 5%;
+        font-size: 10px;
     }
 }
 
